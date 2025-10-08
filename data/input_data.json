@@ -1,0 +1,60 @@
+{
+    "svc_id": "b37f0c9413eeb7c45f6fe31cbe3a41ef",
+    "ctlg_type": "02",
+    "dataset_type": "02",
+    "ctlg_type_pc": "dataset",
+    "dataset_type_pc": "해외",
+    "dataset_pub_dt_pc": "2024",
+    "dataset_access_type_pc": "공개",
+    "file_yn_pc": "랜딩페이지이동",
+    "dataset_cc_license_pc": "none",
+    "dataset_main_lang_pc": "English",
+    "dataset_sub_lang_pc": "none",
+    "cltfm_pc": "ARDC",
+    "dataset_title_kor": "",
+    "dataset_title_etc_main": "Architectural Urbanism: Melbourne/Seoul - KTA projects",
+    "dataset_title_etc_sub": "",
+    "dataset_expl_kor": "",
+    "dataset_expl_etc_main": "BACKGROUND: 'Architectural Urbanism: Melbourne/Seoul' was a two-city exhibition funded by RMIT University and the Korean National University, supported by the Australian Government through the Australian International Cultural Council. Kerstin Thompson Architecture (KTA) showed five works - Carrum Downs Police Station, MUMA Gallery, Lake Conneware House, Napier Street Housing and Royal Botanic Gardens Visitor Centre - as one of ten architectural firms (5 from Melbourne, 5 from Seoul) selected to exhibit. The exhibited work included large scale photographs, working drawings and exegetical text. CONTRIBUTION: The exhibition explored architectural approaches that worked 'within the city rather than upon it', architecture that 'intervenes and inserts, rather than overlays or eradicates'. Within this context, the public projects exhibited by KTA explore relationships between interior and exterior, building and street, and the existing and the new. This draws on Thompson's ongoing practice and design research focussing on architecture as a civic endeavour, forging connections between buildings, their surroundings and the people who inhabit them. SIGNIFICANCE: 'Architectural Urbanism' was an international, cross institutional exhibition that received external funding, evidencing significance for the selected works by the 10 participating practices. In Seoul, the exhibition was opened by the deputy Australian Ambassador. The Melbourne exhibition was reviewed in Architecture Australia (AA). These KTA projects have also received multiple awards and media attention including four AIA (Australian Institute of Architects) Victorian Architecture Awards, an IDEA (Interior Design Excellence Awards) award, three book features, critical reviews in AA, and articles in SMH, The Australian, Broadsheet and Archdaily.",
+    "dataset_expl_etc_sub": "",
+    "dataset_kywd_kor": "",
+    "dataset_kywd_etc_main": "",
+    "dataset_kywd_etc_sub": "",
+    "cltfm_kor": "",
+    "cltfm_etc": "ARDC",
+    "dataset_data_loc": "{coordinates:[0.0,0.0],type:point}",
+    "dataset_lndgpg": "https://doi.org/10.25439/rmt.27353883.v1",
+    "dataset_lndgpg_img": "",
+    "dataset_lndgpg_thum": "",
+    "dataset_doi": "https://doi.org/10.25439/rmt.27353883.v1",
+    "dataset_etc_attr": "",
+    "dataset_regist_dt": "2025-04-21 12:02:59",
+    "dataset_mod_dt": "0001-01-01 00:00:00",
+    "dataset_register": "",
+    "ministry_pc": [
+        "none"
+    ],
+    "dataset_mnsb_pc": [
+        "Not Assigned"
+    ],
+    "file_frmt_pc": [
+        "none"
+    ],
+    "pjt_prfrm_org_pc": [
+        "none"
+    ],
+    "dataset_creator_kor": [],
+    "dataset_creator_etc_main": [],
+    "dataset_creator_etc_sub": [],
+    "pjt_prfrm_org_kor": [],
+    "pjt_prfrm_org_etc": [],
+    "ministry_kor": [],
+    "ministry_etc": [],
+    "pjt_nm_kor": [],
+    "pjt_nm_etc": [],
+    "pjt_mngr_kor": [],
+    "pjt_mngr_etc": [],
+    "dataset_cntrbtr_kor": [],
+    "dataset_cntrbtr_etc": [],
+    "dataset_pric": []
+}
