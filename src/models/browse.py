@@ -1,4 +1,4 @@
-import os, requests, json, xmltodict
+import os, requests
 from graph.global_state import State
 from utils.func import xml_to_df
 from utils.sciecneon_api import call_access_token
@@ -14,10 +14,6 @@ def DATA_browse(state: State):
 
     res = requests.get(url, params=params, timeout=20)
     data = res.json()
-
-    # json 저장
-    with open("../data/input_data.json", "w", encoding="utf-8") as f:
-        json.dump(data['records'], f, ensure_ascii=False, indent=4)
 
     title, description, keyword = data['records']['dataset_title_etc_main'], data['records']['dataset_expl_etc_main'], data['records']['dataset_kywd_etc_main']
     print('\n[title]\n', title)
@@ -50,11 +46,6 @@ def ARTI_browse(state: State):
     
     res = requests.get(url, params=params, timeout=20)
     xml = res.text
-    dict_data = xmltodict.parse(xml)
-    
-    # 데이터를 json으로 저장
-    with open("../data/input_data.json", "w", encoding="utf-8") as f:
-        json.dump(dict_data, f, ensure_ascii=False, indent=4)
 
     df = xml_to_df(xml)
     

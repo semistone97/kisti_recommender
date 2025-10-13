@@ -38,9 +38,6 @@ def generate_query(state: State):
     res = structured_sllm.invoke(prompt)
     query = res.query
     
-    with open('../data/queries.txt', 'w', encoding='utf-8') as f:
-        f.write('\n'.join(query))
-        
     print('\n[query]\n', query)
 
     return {'query': query}
@@ -77,7 +74,6 @@ def ARTI_search(state: State):
         df = pd.concat([df, tmp], ignore_index=True)
         
     df = df.drop_duplicates(subset='CN')
-    df.to_csv('../data/search_results_article.csv', index=False, encoding='utf-8')
     print('\n[total article length]\n', len(df))
 
     cleaned_df = (
@@ -130,7 +126,6 @@ def DATA_search(state: State):
             df = pd.concat([df, tmp], ignore_index=True)
 
     df = df.drop_duplicates(subset='svc_id')
-    df.to_csv('../data/search_results_dataset.csv', index=False, encoding='utf-8')
     print('\n[total dataset length]\n', len(df))
     
     cleaned_df = (

@@ -90,8 +90,6 @@ def evaluate_relevance(state: State):
                 .sort_values("relevance", ascending=False)
                 .reset_index(drop=True)).head(5)
 
-    result_df.to_csv('../data/relevance_results.csv', index=False, encoding='utf-8')
-
     return {'relevance_df': result_df}
 
 
@@ -146,7 +144,6 @@ def generate_reason(state: State):
         on='ID',
         how='left'
     )
-    relevance_df.to_csv('../data/relevance_results.csv', index=False, encoding='utf-8')
 
     return {'relevance_df': relevance_df}
 

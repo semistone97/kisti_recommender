@@ -1,6 +1,6 @@
 from langgraph.graph import START, END, StateGraph
-from global_state import State
-from router import input_router
+from graph.global_state import State
+from graph.router import input_router
 from models.browse import DATA_browse, ARTI_browse
 from models.search import generate_query, ARTI_search, DATA_search
 from models.relevance import evaluate_relevance, generate_reason, summarize_results
