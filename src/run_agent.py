@@ -24,7 +24,7 @@ def main():
 
     print(res['result_df'])
     df = res['result_df']
-    df.to_csv('./src/analysis_result.csv', index=False, encoding='utf-8')
+    df.to_csv('./results/analysis_result.csv', index=False, encoding='utf-8')
 
 if __name__ == "__main__":
     main()
