@@ -1,26 +1,25 @@
 from dotenv import load_dotenv
 from graph.builder import build_graph
 import pandas as pd
-import json
+import json, argparse
 
 load_dotenv(override=True)
 
 def main():
     
-    # input_id = 'JAKO200411922932805'
-    # input_category = 'article'
+    parser = argparse.ArgumentParser(description="에이전트 실행")
+    parser.add_argument("--id", required=True, help="검색 데이터의 ID")
+    parser.add_argument("--category", required=True, choices=['article', 'dataset'], help="article 또는 dataset 선택")
+    args = parser.parse_args()
 
-    # input_id = '37c0f3d51a130211fe55fe6019cc7914'
-    # input_category = 'dataset'
-
-    input_id = input('[검색 데이터의 ID]\n')
-    input_category = input('article / dataset\n')
+    id = args.id
+    category = args.category
         
     graph = build_graph()
     
     res = graph.invoke({
-        'input_id': input_id,
-        'input_category': input_category,
+        'input_id': id,
+        'input_category': category,
     })
 
     print(res['result_df'])
