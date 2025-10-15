@@ -1,9 +1,18 @@
 from langgraph.graph import START, END, StateGraph
 from graph.global_state import State
-from graph.router import input_router
 from models.browse import DATA_browse, ARTI_browse
 from models.search import generate_query, ARTI_search, DATA_search
 from models.relevance import evaluate_relevance, generate_reason, summarize_results
+
+def input_router(state):
+
+    if state['input_category'] == 'article':
+        return 'article'
+    
+    if state['input_category'] == 'dataset':
+        return 'dataset'
+
+    return 'END'
 
 def build_graph():
     builder = StateGraph(State)

@@ -1,0 +1,42 @@
+[
+    {
+        "구분": "article",
+        "제목": "한국인의 3차원 무릎 관절 모델 구축 및 형상 측정",
+        "설명": "It is necessary to have a model that describes the feature of the knee joint with a sufficient accuracy. Koreans, however, do not have their own knee joint model used in the total knee replacement arthroplasty. They have to use European and American models but they do not match to Korean's knee joint components. Past days many doctors actually measured the knee joint shape using calipers while operating patients or the size of 2D image-like as computed tomography (CT) and magnetic resonance image. Recently, three-dimensional visualization techniques are found to be useful in a wide range of medical applications. Three-dimensional imaging studies such as CT and MRI provide the primary source of patient-specific data. In this study, three dimensional knee joint models were constructed by image processing of CT data for 15 persons. Using the constructed model, the size of knee joint of Korean was measured. Finally this study proposed the method and standard of measurement by using 3D knee joint model. The proposed 3D model and data and method of measurement can be helpful to develop Korean knee implant and analysis of knee joint movement.",
+        "점수": 92.39556121826172,
+        "추천 사유": "This paper presents the construction of a 3D knee joint model specifically for Koreans, which is the primary focus of the research topic, emphasizing the need for accurate representation in knee joint measurements.",
+        "URL": "http://click.ndsl.kr/servlet/OpenAPIDetailView?keyValue=05787966&target=DIKO&cn=DIKO0010027329"
+    },
+    {
+        "구분": "article",
+        "제목": "Determination of representative dimension parameter values of Korean knee joints for knee joint implant design",
+        "설명": "<P> Knee joint implants developed by western companies have been imported to Korea and used for Korean patients. However, many clinical problems occur in knee joints of Korean patients after total knee joint replacement owing to the geometric mismatch between the western implants and Korean knee joint structures. To solve these problems, a method to determine the representative dimension parameter values of Korean knee joints is introduced to aid in the design of knee joint implants appropriate for Korean patients. Measurements of the dimension parameters of 88 male Korean knee joint subjects were carried out. The distribution of the subjects versus each measured parameter value was investigated. The measured dimension parameter values of each parameter were grouped by suitable intervals called the &ldquo;size group,&rdquo; and average values of the size groups were calculated. The knee joint subjects were grouped as the &ldquo;patient group&rdquo; based on &ldquo;size group numbers&rdquo; of each parameter. From the iterative calculations to decrease the errors between the average dimension parameter values of each &ldquo;patient group&rdquo; and the dimension parameter values of the subjects, the average dimension parameter values that give less than the error criterion were determined to be the representative dimension parameter values for designing knee joint implants for Korean patients. </P>",
+        "점수": 53.66078186035156,
+        "추천 사유": "The study addresses the geometric mismatch of knee implants for Korean patients, directly relating to the need for a Korean-specific knee joint model in total knee replacement, as highlighted in the research description.",
+        "URL": "http://click.ndsl.kr/servlet/OpenAPIDetailView?keyValue=05787966&target=NART&cn=NART73608690"
+    },
+    {
+        "구분": "dataset",
+        "제목": "무릎 인공관절 형상 설계에 활용할 수 있는 한국인 남녀 무릎 관절의 형상 및 치수 데이터의 제작",
+        "설명": "1. 관절면 영상 생성  한국인의 무릎 인공관절 형상 설계에 활용할 수 있는 남녀 무릎 관절의 형상 및 치수 자료를 구축하기 위해서 2003년, 2004년에 구축된 디지털 코리언 인체 데이터 남성 시신 44표본, 여성 시신 58표본을 사용하였다. Mimics(Ver.13) 소프트웨어를 사용하여 인체의 넙다리뼈, 무릎뼈, 정강뼈의 3차원 영상을 생성한 뒤에 보행 시의 뼈의 위치에 맞추기 위해 각각의 개별 뼈 모델을 보행 축에 맞도록 재정렬 하였다. 넙다리뼈, 무릅뼈, 정강뼈 측정의 기준 스케일로 사용할 40 mm 구를 무릎 관절의 옆쪽에 생성하고 여러 방향에서의 관절면 영상을 캡춰하여 관절면 영상을 생성하였다. 보다 상세한 내용은 KISTI에서 운영하는 디지털 코리언 홈페이지(http://dk.kisti.re.kr)를 참조하기 바란다.  2. 절단면 영상 생성  또한 위의 3차원 개별뼈 모델에 실제 무릎인공관절 수술에서 사용되는 방법으로 관절면을 절단하여 가상으로 수술된 상태의 3차원 뼈 모델을 제작하고 절단면의 치수 측정을 위해 기준 스케일로 사용할 40 mm 구를 무릎 관절의 옆쪽에 생성하고 가상 수술이 완료된 뼈 절단면의 2차원 절단면 영상 파일을 생성하였다.  3. 관절면, 절단면의 치수 측정  무릎 관절의 형상을 표현하는 관절면과 가상 수술된 절단면의 주요 부분의 치수를 측정하기 위하여 CAD 프로그램인 Cadian 소프트웨어를 사용하여 넙다리뼈, 무릎뼈, 정강뼈의 관절면과 절단면의 주요한 측정 부위를 선정하고 그 치수를 측정하였다. 보다 상세한 내용은 KISTI에서 운영하는 디지털 코리언 홈페이지(http://dk.kisti.re.kr)를 참조하기 바란다.",
+        "점수": 51.367164611816406,
+        "추천 사유": "This study involves the creation of shape and dimension data for Korean knee joints, which is essential for designing knee implants, directly supporting the research topic's aim of developing a Korean knee joint model.",
+        "URL": "https://dk.kisti.re.kr/?q=node/9"
+    },
+    {
+        "구분": "article",
+        "제목": "한국인 사체 무릎관절 형상모델을 이용한 초소형 무릎관절경의 사용 편의성 검증",
+        "설명": "",
+        "점수": 50.31488037109375,
+        "추천 사유": "Although the description is limited, the title suggests a focus on knee joint modeling for Koreans, which is relevant to the research topic's goal of developing a specific model for Korean knee joints.",
+        "URL": "http://click.ndsl.kr/servlet/OpenAPIDetailView?keyValue=05787966&target=NPAP&cn=NPAP13253595"
+    },
+    {
+        "구분": "article",
+        "제목": "A method of vivo human knee joint 3D model reconstruction based on MR images",
+        "설명": "Objective: To reconstruct a 3D vivo human knee joint model. It could be used for further kinetics and dynamics analysis of the human knee joint. Method: Pretreating the images acquired from MR apparatus using threshold method, segmenting the images using region-growing arithmetic, and then reconstructing the model by using 3-dimension interpolations. Result: The reconstructed model consisted of tibia, femur as well as soft tissue such as menisci and cartilages. It can be merged in the FE software for further usages. Conclusion: This method is suitable for 3D model reconstruction from MRI, the model could be further improved by changing the segmentation and interpolation arithmetics.",
+        "점수": 49.63300704956055,
+        "추천 사유": "This paper focuses on reconstructing a 3D knee joint model using MRI, which aligns with the research topic's emphasis on three-dimensional modeling and imaging techniques for knee joints.",
+        "URL": "http://click.ndsl.kr/servlet/OpenAPIDetailView?keyValue=05787966&target=NART&cn=NART51664194"
+    }
+]

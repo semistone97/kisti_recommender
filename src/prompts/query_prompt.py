@@ -1,7 +1,8 @@
 from langchain_core.prompts import PromptTemplate
+from utils.config_loader import config
 
 # Prompt
-query_template = '''
+query_template_1 = f'''
 Generate search queries to find the most semantically relevant papers and datasets based on the given title, description and keywords.
 
 [Search Engine Constraints]
@@ -17,7 +18,7 @@ Generate search queries to find the most semantically relevant papers and datase
     - Keep a balanced mix — 12 method-centered, 12 domain-centered, and 1–2 application-scenario-centered queries.
     - Exclude entries consisting only of abbreviations, but allow widely used ones (e.g., “BERT” is allowed, “ML” alone is not).
     - Do not use hyphens, special characters, or quotation marks.
-4. Final Selection: Retain only the top 3–5.
+4. Final Selection: Retain only the top {int(config['search']['query_length'])}.
 
 [Prohibitions]
 - Single-word queries are not allowed.
@@ -25,6 +26,9 @@ Generate search queries to find the most semantically relevant papers and datase
 - Do not leave only stopword combinations (e.g., “for research”).
 - Do not violate the JSON schema.
 
+'''
+
+query_template_2 = '''
 [Input]
 - Research Topic: {title}
 - Research Description: {description}
@@ -38,4 +42,4 @@ Output in the following JSON format:
 }}
 '''
 
-query_prompt = PromptTemplate.from_template(query_template)
+query_prompt = PromptTemplate.from_template(query_template_1 + query_template_2)

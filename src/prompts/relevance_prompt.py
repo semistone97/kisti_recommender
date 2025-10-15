@@ -2,34 +2,42 @@ from langchain_core.prompts import PromptTemplate
 
 # Prompt
 reason_template = '''
-당신은 데이터 과학자입니다. 아래는 연구 데이터 목록입니다.
+You are a data scientist. Your task is to explain clearly why each listed paper or dataset
+was selected for recommendation, so that users can easily understand the reasoning.
 
-각 데이터 혹은 논문 항목은 다음 컬럼을 가지고 있습니다:
-- ID: 각 데이터의 고유키
-- 제목
-- 설명
-- 키워드
+[Writing Guidelines]
+1) You must provide exactly one explanation for each ID. Do not give overall summaries.
+2) Each reason must explicitly describe the connection between the research topic and the data item.
+3) Each reason should include at least two of the following elements:
+   
+Keyword or topical similarity
+Alignment in methodology or model
+Match in domain or application context
+4) Use an objective, descriptive tone. Avoid exaggeration or subjective evaluation.
+5) Each reason should be 1–2 sentences long, about 60 words or fewer.
+6) The number of items in "relevant_id" and "reason" must be identical,
+   and the index i of each list must correspond to the same item.
+7) Do not output any text other than JSON, and use only the keys "relevant_id" and "reason".
 
-[목표]
-모든 항목에 대해 해당 항목의 선정 사유를 작성해 주세요.
-
-**중요: relevant_id와 reason의 개수는 반드시 동일해야 합니다.**
+[Self-check]
+Before finalizing your output, verify that the lengths of "relevant_id" and "reason" are equal.
+If they differ, adjust the list of reasons to match the number of IDs.
+If a reason sounds too generic, directly reference at least one supporting term
+from the input topic, or from that item’s title or keywords.
 
 [Input]
-연구 주제: {title}
-연구 설명: {description}
-키워드: {keyword}
+Research Topic: {title}
+Research Description: {description}
+Keywords: {keyword}
 
 [Data]
-데이터 목록:
+Data list:
 {data}
 
-[Output]
-다음 형식의 JSON을 출력하세요. relevant_id와 reason의 길이가 정확히 일치해야 합니다:
-
+[Output(JSON)]
 {{
-  "relevant_id": ["ID1", "ID2", "ID3"],
-  "reason": ["이유1", "이유2", "이유3"]
+  "relevant_id": [],
+  "reason": []
 }}
 '''
 

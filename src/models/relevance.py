@@ -3,12 +3,13 @@ from tqdm import tqdm
 from langchain_openai import OpenAIEmbeddings
 from langchain_community.vectorstores import FAISS
 from langchain.schema import Document
-
-from graph.global_state import State
-from prompts.relevance_prompt import reason_prompt
 from typing_extensions import Annotated
 from pydantic import Field, BaseModel
 from langchain_openai import ChatOpenAI
+
+from utils.config_loader import config
+from graph.global_state import State
+from prompts.relevance_prompt import reason_prompt
 
 # 연관성 점수 계산 노드
 def evaluate_relevance(state: State):
@@ -17,7 +18,7 @@ def evaluate_relevance(state: State):
 
     targets = ['title', 'description', 'keyword']
 
-    MAX_LENGTH = 2000
+    MAX_LENGTH = int(config['evaluate_relevance']['MAX_LENGTH'])
 
     dfs = {}
 
@@ -34,7 +35,7 @@ def evaluate_relevance(state: State):
         docs = [Document(page_content=text, metadata={"ID": row.ID}) 
                 for text, row in zip(texts, df.itertuples())]
 
-        batch_size = 500
+        batch_size = int(config['evaluate_relevance']['batch_size'])
         stores = []
         for i in tqdm(range(0, len(docs), batch_size)):
             batch = docs[i:i+batch_size]
@@ -77,7 +78,7 @@ def evaluate_relevance(state: State):
     merged_df = merged_df[merged_df['ID'] != state['input_id']]
 
     # 2. 가중치 합산
-    a, b, c = 10, 3, 1
+    a, b, c = int(config['weight']['title_weight']), int(config['weight']['desc_weight']), int(config['weight']['key_weight'])
     merged_df["relevance_raw"] = (
         merged_df["relevance_title"] * a + 
         merged_df["relevance_desc"] * b + 
