@@ -1,6 +1,7 @@
 from dotenv import load_dotenv
 from graph.builder import build_graph
 import pandas as pd
+import json
 
 load_dotenv(override=True)
 
@@ -24,7 +25,11 @@ def main():
 
     print(res['result_df'])
     df = res['result_df']
-    df.to_csv('./results/analysis_result.csv', index=False, encoding='utf-8')
+    
+    data = df.to_dict(orient='records')
+
+    with open('./results/analysis_result.json', 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=4)
 
 if __name__ == "__main__":
     main()
