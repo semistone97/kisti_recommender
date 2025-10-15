@@ -30,5 +30,6 @@ def main():
     with open('./results/analysis_result.json', 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
 
+    print('saved to results/analysis_result.json')
 if __name__ == "__main__":
     main()
