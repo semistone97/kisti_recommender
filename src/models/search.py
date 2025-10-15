@@ -7,6 +7,7 @@ from pydantic import Field, BaseModel
 from graph.global_state import State
 from utils.func import xml_to_df, transform_query
 from utils.sciecneon_api import call_access_token
+from utils.config_loader import config
 from prompts.query_prompt import query_prompt
 
 # 쿼리 생성 노드
@@ -15,9 +16,9 @@ class QueryResult(BaseModel):
         list[str],
         Field(
             ..., 
-            max_length=5, 
-            min_length=3,
-            description="가장 적절한 검색어들의 리스트, 길이 최소 3개/최대 5개", 
+            max_length=int(config['search']['query_length']), 
+            min_length=int(config['search']['query_length']),
+            description=f"가장 적절한 검색어들의 리스트, 총 {int(config['search']['query_length'])}개", 
         )
     ]
     
@@ -64,7 +65,7 @@ def ARTI_search(state: State):
             "target": "ARTI",
             "searchQuery": transform_query(query),
             'curPage': 1, # 현재페이지 번호
-            'rowCount': 20, # 디스플레이 건수(기본값 10, 최대값 100)
+            'rowCount': int(config['search']['search_length']), # 디스플레이 건수(기본값 10, 최대값 100)
         }
 
         res = requests.get(url, params=params, timeout=20)
@@ -111,7 +112,7 @@ def DATA_search(state: State):
     url = "https://dataon.kisti.re.kr/rest/api/search/dataset/"
     df = pd.DataFrame()
     for query in state['query']:
-        params = {"key": API_KEY, "query": query, "from": 0, "size": 20}
+        params = {"key": API_KEY, "query": query, "from": 0, "size": int(config['search']['search_length'])}
         # key / CHAR / 필수 / API_KEY
         # query / CHAR / 필수 / 검색키워드
         # from / CHAR / 옵션 / 페이지시작위치
