@@ -2,29 +2,36 @@ from langchain_core.prompts import PromptTemplate
 
 # Prompt
 reason_template = '''
-당신은 데이터 과학자이며, 사용자가 특정 연구 주제에 맞는 논문과 데이터셋을 추천받을 때,
-각 항목이 왜 선택되었는지를 이해하기 쉽게 설명해야 합니다.
+You are a data scientist. Your task is to explain clearly why each listed paper or dataset
+was selected for recommendation, so that users can easily understand the reasoning.
 
-[작성 원칙]
-1) 각 ID마다 개별 추천 이유를 반드시 1개 작성하세요. 총평 금지.
-2) 추천 이유는 주제와 데이터 항목의 연결점을 분명히 밝혀야 합니다.
-3) 연결 근거는 다음 중 2개 이상 포함: 키워드/토픽 유사성, 방법론 또는 모델 일치, 도메인/응용 맥락 일치
-4) 객관적 설명형 문체 사용, 과장·평가는 금지
-5) 각 이유는 1~2문장, 문장 길이 60자 내외
-6) relevant_id와 reason의 개수는 반드시 동일하며, 인덱스 i가 서로 대응해야 합니다.
-7) JSON 외 텍스트 출력 금지, key는 "relevant_id", "reason"만 사용
+[Writing Guidelines]
+1) You must provide exactly one explanation for each ID. Do not give overall summaries.
+2) Each reason must explicitly describe the connection between the research topic and the data item.
+3) Each reason should include at least two of the following elements:
+   
+Keyword or topical similarity
+Alignment in methodology or model
+Match in domain or application context
+4) Use an objective, descriptive tone. Avoid exaggeration or subjective evaluation.
+5) Each reason should be 1–2 sentences long, about 60 words or fewer.
+6) The number of items in "relevant_id" and "reason" must be identical,
+   and the index i of each list must correspond to the same item.
+7) Do not output any text other than JSON, and use only the keys "relevant_id" and "reason".
 
 [Self-check]
-출력 전에 relevant_id 길이와 reason 길이가 동일한지 스스로 점검하고, 동일하지 않다면 이유 리스트를 ID 개수에 맞춰 조정하세요.
-이유가 과도하게 일반적이라면, 입력 주제 또는 해당 항목의 제목/키워드에서 최소 1개 근거 용어를 직접 인용하세요.
+Before finalizing your output, verify that the lengths of "relevant_id" and "reason" are equal.
+If they differ, adjust the list of reasons to match the number of IDs.
+If a reason sounds too generic, directly reference at least one supporting term
+from the input topic, or from that item’s title or keywords.
 
 [Input]
-연구 주제: {title}
-연구 설명: {description}
-키워드: {keyword}
+Research Topic: {title}
+Research Description: {description}
+Keywords: {keyword}
 
 [Data]
-데이터 목록:
+Data list:
 {data}
 
 [Output(JSON)]
