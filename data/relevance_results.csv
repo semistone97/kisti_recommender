@@ -1,6 +1,6 @@
 ID,relevance,reason
-d023e479d6a3e09f0d7988cf38a4436b,99.72029,"이 데이터는 Ross Sea의 다른 위치에서 수집된 중력 코어 샘플로, 연구 주제와 유사한 기후 변화 관찰을 포함하고 있습니다."
-ff96e62579ae3046d133440562968c39,99.45315,"이 데이터는 연구 주제와 동일한 지역에서 수집된 중력 코어 샘플로, 기후 변화 관찰과 관련이 있습니다."
-21f628ecb675030dedda1149f466adae,99.09062,"이 데이터는 Ross Sea에서 수집된 중력 코어 샘플로, 연구 주제와 유사한 기후 변화 관찰을 포함하고 있습니다."
-e83e64b3b4ea6a9982da08310ea27b1b,98.75883,"이 데이터는 Ross Sea의 다른 위치에서 수집된 중력 코어 샘플로, 기후 변화 관찰과 관련이 있습니다."
-83d26621eaf49e20d987f3d7d4005122,98.718956,"이 데이터는 Ross Sea에서의 중력 코어 샘플로, 연구 주제와 동일한 지역에서 수집되었으며, 기후 변화 관찰과 관련이 있습니다."
+DIKO0010027329,92.39738,"This research presents the construction of a 3D knee joint model specifically for Koreans, which is directly aligned with the goal of developing a tailored knee joint model for Korean patients."
+NART73608690,53.66078,"The study addresses the geometric mismatch between Western knee implants and Korean knee joint structures, directly relating to the need for a Korean-specific knee joint model for total knee replacement."
+NART51664194,51.528404,"This paper focuses on reconstructing a 3D model of the knee joint using MR images, which aligns with the research topic's emphasis on three-dimensional modeling and imaging techniques for accurate knee joint representation."
+f1bd34e52434a57a01b9ab55a6670891,51.367165,"This paper discusses the creation of shape and dimension data for Korean knee joints, which is essential for designing knee implants that fit the unique anatomical features of Korean patients."
+NPAP13253595,50.31488,"Although the description is limited, the title suggests a focus on a knee joint model for Koreans, which is relevant to the need for accurate representation in knee joint studies."
