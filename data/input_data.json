@@ -1,84 +1,2091 @@
 {
-    "svc_id": "37c0f3d51a130211fe55fe6019cc7914",
-    "ctlg_type": "02",
-    "dataset_type": "01",
-    "ctlg_type_pc": "dataset",
-    "dataset_type_pc": "국내",
-    "dataset_pub_dt_pc": "2025",
-    "dataset_access_type_pc": "공개",
-    "file_yn_pc": "랜딩페이지이동",
-    "dataset_cc_license_pc": "CC BY-NC-ND",
-    "dataset_main_lang_pc": "English",
-    "dataset_sub_lang_pc": "none",
-    "cltfm_pc": "극지연구소",
-    "dataset_title_kor": "",
-    "dataset_title_etc_main": "Gravity Core from Antarctic ROSS Sea (RS15-GC76)",
-    "dataset_title_etc_sub": "",
-    "dataset_expl_kor": "",
-    "dataset_expl_etc_main": "2014/2015 Gravity core, Ross Sea (O.Granite Harbor), Antarctic Climate change observation. Location : 76°54.9315'S, 163°21.7774'E Water Depth : 808m Core Length : 3.17m",
-    "dataset_expl_etc_sub": "",
-    "dataset_kywd_kor": "",
-    "dataset_kywd_etc_main": "EARTH SCIENCE;OCEANS;MARINE SEDIMENTS;SEDIMENTATION",
-    "dataset_kywd_etc_sub": "OCEANS",
-    "cltfm_kor": "극지연구소",
-    "cltfm_etc": "",
-    "dataset_data_loc": "{coordinates:[0.0,0.0],type:point}",
-    "dataset_lndgpg": "https://dx.doi.org/doi:10.22663/KOPRI-KPDC-00002769.1",
-    "dataset_lndgpg_img": "",
-    "dataset_lndgpg_thum": "",
-    "dataset_doi": "10.22663/KOPRI-KPDC-00002769",
-    "dataset_etc_attr": "",
-    "dataset_regist_dt": "2025-05-01 23:57:37",
-    "dataset_mod_dt": "2025-09-18 11:58:35",
-    "dataset_register": "",
-    "ministry_pc": [
-        "none"
-    ],
-    "dataset_mnsb_pc": [
-        "Oceans"
-    ],
-    "file_frmt_pc": [
-        "none"
-    ],
-    "pjt_prfrm_org_pc": [
-        "none"
-    ],
-    "dataset_creator_kor": [],
-    "dataset_creator_etc_main": [
-        "Hyo Jin Kim(hyojink@kopri.re.kr)"
-    ],
-    "dataset_creator_etc_sub": [],
-    "pjt_prfrm_org_kor": [],
-    "pjt_prfrm_org_etc": [],
-    "ministry_kor": [],
-    "ministry_etc": [],
-    "pjt_nm_kor": [],
-    "pjt_nm_etc": [],
-    "pjt_mngr_kor": [],
-    "pjt_mngr_etc": [],
-    "dataset_cntrbtr_kor": [],
-    "dataset_cntrbtr_etc": [
-        "Hyo Jin Kim(hyojink@kopri.re.kr)",
-        "Kyu-Cheul Yoo(kcyoo@kopri.re.kr)",
-        "Hyo Jin Kim(hyojink@kopri.re.kr)",
-        "Kyu-Cheul Yoo(kcyoo@kopri.re.kr)",
-        "Jae Il Lee(leeji@kopri.re.kr)",
-        "Hyo Jin Kim(hyojink@kopri.re.kr)",
-        "Kyu-Cheul Yoo(kcyoo@kopri.re.kr)",
-        "Jae Il Lee(leeji@kopri.re.kr)",
-        "Sunghan Kim(delongksh@kopri.re.kr)",
-        "Hyo Jin Kim(hyojink@kopri.re.kr)",
-        "Kyu-Cheul Yoo(kcyoo@kopri.re.kr)",
-        "Jae Il Lee(leeji@kopri.re.kr)",
-        "Sunghan Kim(delongksh@kopri.re.kr)",
-        "Min Kyung Lee(mklee@kopri.re.kr)",
-        "Hyo Jin Kim(hyojink@kopri.re.kr)",
-        "Hyo Jin Kim(hyojink@kopri.re.kr)",
-        "Kyu-Cheul Yoo(kcyoo@kopri.re.kr)",
-        "Jae Il Lee(leeji@kopri.re.kr)",
-        "Sunghan Kim(delongksh@kopri.re.kr)",
-        "Min Kyung Lee(mklee@kopri.re.kr)",
-        "Hyo Jin Kim(hyojink@kopri.re.kr)"
-    ],
-    "dataset_pric": []
+    "MetaData": {
+        "resultSummary": {
+            "serviceDatatype": "논문",
+            "statusCode": "200"
+        },
+        "parameterData": {
+            "client_id": "5e9c4c6079d323f1a6accb980253cac8733c0249be263f11da5fbc9b2f7cb58d",
+            "token": "9b668f0dbe1fef109c4a8c04a5735278021265cf889a1b156df6fd7159413dad",
+            "session_id": null,
+            "cn": "JAKO200411922932805"
+        },
+        "recordList": {
+            "record": {
+                "@rownum": "1",
+                "item": [
+                    {
+                        "@metaCode": "CN",
+                        "@metaName": "CN",
+                        "#text": "JAKO200411922932805"
+                    },
+                    {
+                        "@metaCode": "DBCode",
+                        "@metaName": "DB코드",
+                        "#text": "JAKO"
+                    },
+                    {
+                        "@metaCode": "JournalId",
+                        "@metaName": "저널제어번호",
+                        "#text": "NJOU00290524"
+                    },
+                    {
+                        "@metaCode": "Publisher",
+                        "@metaName": "출판사(발행기관)",
+                        "#text": "대한기계학회"
+                    },
+                    {
+                        "@metaCode": "JournalName",
+                        "@metaName": "저널명",
+                        "#text": "大韓機械學會論文集. Transactions of the Korean Society of Mechanical Engineers. A. A"
+                    },
+                    {
+                        "@metaCode": "ISSN",
+                        "@metaName": "ISSN",
+                        "#text": "1226-4873;2288-5226;"
+                    },
+                    {
+                        "@metaCode": "ISBN",
+                        "@metaName": "ISBN"
+                    },
+                    {
+                        "@metaCode": "VolumeId",
+                        "@metaName": "권호Id",
+                        "#text": "57"
+                    },
+                    {
+                        "@metaCode": "VolNo1",
+                        "@metaName": "권번호",
+                        "#text": "28"
+                    },
+                    {
+                        "@metaCode": "VolNo2",
+                        "@metaName": "호번호",
+                        "#text": "11"
+                    },
+                    {
+                        "@metaCode": "Pubyear",
+                        "@metaName": "발행년",
+                        "#text": "2004"
+                    },
+                    {
+                        "@metaCode": "Pubdate",
+                        "@metaName": "발행일"
+                    },
+                    {
+                        "@metaCode": "HoldingFlag",
+                        "@metaName": "소장정보유무"
+                    },
+                    {
+                        "@metaCode": "ArticleId",
+                        "@metaName": "논문제어번호",
+                        "#text": "JAKO200411922932805"
+                    },
+                    {
+                        "@metaCode": "Title",
+                        "@metaName": "논문명",
+                        "#text": "한국인의 3차원 무릎관절 구축 및 형상 측정"
+                    },
+                    {
+                        "@metaCode": "Abstract",
+                        "@metaName": "초록",
+                        "#text": "It is necessary to have a model that describes the feature of the knee Joint with a sufficient accuracy. Koreans, however, do not have their own knee joint model to be used in the total knee replacement arthroplasty. They have to use European or American models which do not match Koreans. Three-dimensional visualization techniques are found to be useful in a wide range of medical applications. Three-dimensional imaging studies such as CT(computed tomography) and MRI(magnetic resonance image) provide the primary source of patient-specific data. Three-dimensional knee joint models were constructed by image processing of the CT data of 10 subjects. Using the constructed model, the dimensions of Korean knee joint were measured. And this study proposed a three-dimensional model and data, which can be helpful to develop Korean knee implants and to analyze knee joint movements."
+                    },
+                    {
+                        "@metaCode": "Author",
+                        "@metaName": "저자",
+                        "#text": "박기봉;김기범;손권;서정탁;문병영;"
+                    },
+                    {
+                        "@metaCode": "Affiliation",
+                        "@metaName": "저자소속기관",
+                        "#text": "부산대학교 기계설계공학과;부산대학교 기계설계공학과;부산대학교 기계공학부;부산대학교 의과대학정형외과;부산대학교 항공우주공학과;"
+                    },
+                    {
+                        "@metaCode": "FulltextFlag",
+                        "@metaName": "원문유무",
+                        "#text": "2"
+                    },
+                    {
+                        "@metaCode": "AbstractFlag",
+                        "@metaName": "초록유무",
+                        "#text": "1"
+                    },
+                    {
+                        "@metaCode": "PageInfo",
+                        "@metaName": "페이지정보",
+                        "#text": "pp.1664-1671"
+                    },
+                    {
+                        "@metaCode": "DOI",
+                        "@metaName": "DOI",
+                        "#text": "https://doi.org/10.3795/ksme-a.2004.28.11.1664"
+                    },
+                    {
+                        "@metaCode": "FulltextURL",
+                        "@metaName": "원문URL"
+                    },
+                    {
+                        "@metaCode": "ContentURL",
+                        "@metaName": "ScienceON상세링크",
+                        "#text": "http://click.ndsl.kr/servlet/OpenAPIDetailView?keyValue=05787966&target=NART&cn=JAKO200411922932805"
+                    },
+                    {
+                        "@metaCode": "MobileURL",
+                        "@metaName": "ScienceON모바일링크",
+                        "#text": "http://click.ndsl.kr/servlet/OpenAPIDetailView?keyValue=05787966&target=NART&cn=JAKO200411922932805&type=mobile"
+                    },
+                    {
+                        "@metaCode": "Keyword",
+                        "@metaName": "키워드",
+                        "#text": "단층촬영사진 . 한국인 무릎 관절 모델 . 인공 관절 치환술"
+                    },
+                    {
+                        "@metaCode": "Degree",
+                        "@metaName": "학위구분"
+                    },
+                    {
+                        "@metaGroupCode": "SimilarDocumentInfo",
+                        "@metaGroupName": "SimilarDocumentInfo",
+                        "@number": "1",
+                        "item": [
+                            {
+                                "@metaCode": "SimilarTitle",
+                                "@metaName": "관련문헌논문명",
+                                "#text": "CT-TDLAS를 이용한 3차원 연소분포 측정"
+                            },
+                            {
+                                "@metaCode": "SimilarCn",
+                                "@metaName": "관련문헌CN",
+                                "#text": "NART101458387"
+                            },
+                            {
+                                "@metaCode": "SimilarMeterialType",
+                                "@metaName": "관련문헌자료유형"
+                            },
+                            {
+                                "@metaCode": "SimilarLanguage",
+                                "@metaName": "관련문헌언어"
+                            },
+                            {
+                                "@metaCode": "SimilarAuthor",
+                                "@metaName": "관련문헌저자"
+                            },
+                            {
+                                "@metaCode": "SimilarIssn",
+                                "@metaName": "관련문헌ISSN"
+                            },
+                            {
+                                "@metaCode": "SimilarIsbn",
+                                "@metaName": "관련문헌ISBN"
+                            },
+                            {
+                                "@metaCode": "SimilarVolNo1",
+                                "@metaName": "관련문헌권번호"
+                            },
+                            {
+                                "@metaCode": "SimilarVolNo2",
+                                "@metaName": "관련문헌호번호"
+                            },
+                            {
+                                "@metaCode": "SimilarPage",
+                                "@metaName": "관련문헌페이지정보"
+                            },
+                            {
+                                "@metaCode": "SimilarPubyear",
+                                "@metaName": "관련문헌발행년",
+                                "#text": "2019"
+                            }
+                        ]
+                    },
+                    {
+                        "@metaGroupCode": "SimilarDocumentInfo",
+                        "@metaGroupName": "SimilarDocumentInfo",
+                        "@number": "2",
+                        "item": [
+                            {
+                                "@metaCode": "SimilarTitle",
+                                "@metaName": "관련문헌논문명",
+                                "#text": "고단차 불연속 형상의 3차원 측정을 위한 이중파장 위상천이 영사식 무아레"
+                            },
+                            {
+                                "@metaCode": "SimilarCn",
+                                "@metaName": "관련문헌CN",
+                                "#text": "JAKO199908813341282"
+                            },
+                            {
+                                "@metaCode": "SimilarMeterialType",
+                                "@metaName": "관련문헌자료유형"
+                            },
+                            {
+                                "@metaCode": "SimilarLanguage",
+                                "@metaName": "관련문헌언어"
+                            },
+                            {
+                                "@metaCode": "SimilarAuthor",
+                                "@metaName": "관련문헌저자"
+                            },
+                            {
+                                "@metaCode": "SimilarIssn",
+                                "@metaName": "관련문헌ISSN"
+                            },
+                            {
+                                "@metaCode": "SimilarIsbn",
+                                "@metaName": "관련문헌ISBN"
+                            },
+                            {
+                                "@metaCode": "SimilarVolNo1",
+                                "@metaName": "관련문헌권번호"
+                            },
+                            {
+                                "@metaCode": "SimilarVolNo2",
+                                "@metaName": "관련문헌호번호"
+                            },
+                            {
+                                "@metaCode": "SimilarPage",
+                                "@metaName": "관련문헌페이지정보"
+                            },
+                            {
+                                "@metaCode": "SimilarPubyear",
+                                "@metaName": "관련문헌발행년",
+                                "#text": "1999"
+                            }
+                        ]
+                    },
+                    {
+                        "@metaGroupCode": "SimilarDocumentInfo",
+                        "@metaGroupName": "SimilarDocumentInfo",
+                        "@number": "3",
+                        "item": [
+                            {
+                                "@metaCode": "SimilarTitle",
+                                "@metaName": "관련문헌논문명",
+                                "#text": "무릎 관절의 고굴곡에 대한 모멘트와 근력의 추정"
+                            },
+                            {
+                                "@metaCode": "SimilarCn",
+                                "@metaName": "관련문헌CN",
+                                "#text": "JAKO200411922639858"
+                            },
+                            {
+                                "@metaCode": "SimilarMeterialType",
+                                "@metaName": "관련문헌자료유형"
+                            },
+                            {
+                                "@metaCode": "SimilarLanguage",
+                                "@metaName": "관련문헌언어"
+                            },
+                            {
+                                "@metaCode": "SimilarAuthor",
+                                "@metaName": "관련문헌저자"
+                            },
+                            {
+                                "@metaCode": "SimilarIssn",
+                                "@metaName": "관련문헌ISSN"
+                            },
+                            {
+                                "@metaCode": "SimilarIsbn",
+                                "@metaName": "관련문헌ISBN"
+                            },
+                            {
+                                "@metaCode": "SimilarVolNo1",
+                                "@metaName": "관련문헌권번호"
+                            },
+                            {
+                                "@metaCode": "SimilarVolNo2",
+                                "@metaName": "관련문헌호번호"
+                            },
+                            {
+                                "@metaCode": "SimilarPage",
+                                "@metaName": "관련문헌페이지정보"
+                            },
+                            {
+                                "@metaCode": "SimilarPubyear",
+                                "@metaName": "관련문헌발행년",
+                                "#text": "2004"
+                            }
+                        ]
+                    },
+                    {
+                        "@metaGroupCode": "SimilarDocumentInfo",
+                        "@metaGroupName": "SimilarDocumentInfo",
+                        "@number": "4",
+                        "item": [
+                            {
+                                "@metaCode": "SimilarTitle",
+                                "@metaName": "관련문헌논문명",
+                                "#text": "3차원 변형을 고려한 클로버 형상 소재의 업세팅 단조해석"
+                            },
+                            {
+                                "@metaCode": "SimilarCn",
+                                "@metaName": "관련문헌CN",
+                                "#text": "JAKO198611919511027"
+                            },
+                            {
+                                "@metaCode": "SimilarMeterialType",
+                                "@metaName": "관련문헌자료유형"
+                            },
+                            {
+                                "@metaCode": "SimilarLanguage",
+                                "@metaName": "관련문헌언어"
+                            },
+                            {
+                                "@metaCode": "SimilarAuthor",
+                                "@metaName": "관련문헌저자"
+                            },
+                            {
+                                "@metaCode": "SimilarIssn",
+                                "@metaName": "관련문헌ISSN"
+                            },
+                            {
+                                "@metaCode": "SimilarIsbn",
+                                "@metaName": "관련문헌ISBN"
+                            },
+                            {
+                                "@metaCode": "SimilarVolNo1",
+                                "@metaName": "관련문헌권번호"
+                            },
+                            {
+                                "@metaCode": "SimilarVolNo2",
+                                "@metaName": "관련문헌호번호"
+                            },
+                            {
+                                "@metaCode": "SimilarPage",
+                                "@metaName": "관련문헌페이지정보"
+                            },
+                            {
+                                "@metaCode": "SimilarPubyear",
+                                "@metaName": "관련문헌발행년",
+                                "#text": "1986"
+                            }
+                        ]
+                    },
+                    {
+                        "@metaGroupCode": "SimilarDocumentInfo",
+                        "@metaGroupName": "SimilarDocumentInfo",
+                        "@number": "5",
+                        "item": [
+                            {
+                                "@metaCode": "SimilarTitle",
+                                "@metaName": "관련문헌논문명",
+                                "#text": "광섬유 브래그 격자 센서를 이용한 보 구조물의 3차원 형상 추정"
+                            },
+                            {
+                                "@metaCode": "SimilarCn",
+                                "@metaName": "관련문헌CN",
+                                "#text": "JAKO201507964682372"
+                            },
+                            {
+                                "@metaCode": "SimilarMeterialType",
+                                "@metaName": "관련문헌자료유형"
+                            },
+                            {
+                                "@metaCode": "SimilarLanguage",
+                                "@metaName": "관련문헌언어"
+                            },
+                            {
+                                "@metaCode": "SimilarAuthor",
+                                "@metaName": "관련문헌저자"
+                            },
+                            {
+                                "@metaCode": "SimilarIssn",
+                                "@metaName": "관련문헌ISSN"
+                            },
+                            {
+                                "@metaCode": "SimilarIsbn",
+                                "@metaName": "관련문헌ISBN"
+                            },
+                            {
+                                "@metaCode": "SimilarVolNo1",
+                                "@metaName": "관련문헌권번호"
+                            },
+                            {
+                                "@metaCode": "SimilarVolNo2",
+                                "@metaName": "관련문헌호번호"
+                            },
+                            {
+                                "@metaCode": "SimilarPage",
+                                "@metaName": "관련문헌페이지정보"
+                            },
+                            {
+                                "@metaCode": "SimilarPubyear",
+                                "@metaName": "관련문헌발행년",
+                                "#text": "2015"
+                            }
+                        ]
+                    },
+                    {
+                        "@metaGroupCode": "CitingDocumentInfo",
+                        "@metaGroupName": "CitingDocumentInfo",
+                        "@number": "1",
+                        "item": [
+                            {
+                                "@metaCode": "CitingTitle",
+                                "@metaName": "인용문헌논문명",
+                                "#text": "마디모를 이용한 전방십자인대 기능 시뮬레이션 모델"
+                            },
+                            {
+                                "@metaCode": "CitingCn",
+                                "@metaName": "인용문헌CN"
+                            },
+                            {
+                                "@metaCode": "CitingMeterialType",
+                                "@metaName": "인용문헌자료유형"
+                            },
+                            {
+                                "@metaCode": "CitingLanguage",
+                                "@metaName": "인용문헌언어",
+                                "#text": "kor"
+                            },
+                            {
+                                "@metaCode": "CitingAuthor",
+                                "@metaName": "인용문헌저자",
+                                "#text": "박정홍;손권;"
+                            },
+                            {
+                                "@metaCode": "CitingIssn",
+                                "@metaName": "인용문헌ISSN",
+                                "#text": "1226-4873"
+                            },
+                            {
+                                "@metaCode": "CitingIsbn",
+                                "@metaName": "인용문헌ISBN"
+                            },
+                            {
+                                "@metaCode": "CitingVolNo1",
+                                "@metaName": "인용문헌권번호",
+                                "#text": "30"
+                            },
+                            {
+                                "@metaCode": "CitingVolNo2",
+                                "@metaName": "인용문헌호번호",
+                                "#text": "11"
+                            },
+                            {
+                                "@metaCode": "CitingPage",
+                                "@metaName": "인용문헌페이지정보",
+                                "#text": "1408-1416"
+                            },
+                            {
+                                "@metaCode": "CitingPubyear",
+                                "@metaName": "인용문헌발행년",
+                                "#text": "2006"
+                            },
+                            {
+                                "@metaCode": "CitingLinkResolver",
+                                "@metaName": "인용문헌링크리졸버",
+                                "#text": "http://click.ndsl.kr/servlet/resolverService?sid=ksci&genre=article&id=doi:https%3A%2F%2Fdoi.org%2F10.3795%2Fksme-a.2006.30.11.1408&atitle=%EB%A7%88%EB%94%94%EB%AA%A8%EB%A5%BC+%EC%9D%B4%EC%9A%A9%ED%95%9C+%EC%A0%84%EB%B0%A9%EC%8B%AD%EC%9E%90%EC%9D%B8%EB%8C%80+%EA%B8%B0%EB%8A%A5+%EC%8B%9C%EB%AE%AC%EB%A0%88%EC%9D%B4%EC%85%98+%EB%AA%A8%EB%8D%B8&issn=1226-4873&volume=30&date=2006&spage=1408-1416&pid=%3Cprivate_id%3Eorg_code%3D0260%26site_code%3DSS9999%26kscino%3D%26cen%3DJAKO200604623502719%26ndslartctrlno%3D34691355%3C%2Fprivate_id%3E"
+                            },
+                            {
+                                "@metaCode": "CitingFulltextURL",
+                                "@metaName": "인용문헌원문URL",
+                                "#text": "http://www.ndsl.kr/ndsl/commons/util/ndslOriginalView.do?dbt=JAKO&cn=JAKO200604623502719&oCn=JAKO200604623502719&pageCode=PG13&journal=NJOU00290524"
+                            },
+                            {
+                                "@metaCode": "CitingDOI",
+                                "@metaName": "인용문헌DOI",
+                                "#text": "https://doi.org/10.3795/ksme-a.2006.30.11.1408"
+                            },
+                            {
+                                "@metaCode": "CitingPMIDLink",
+                                "@metaName": "인용문헌Pubmed링크"
+                            },
+                            {
+                                "@metaCode": "CitingContentURL",
+                                "@metaName": "인용문헌상세링크",
+                                "#text": "http://www.ndsl.kr/ndsl/search/detail/article/articleSearchResultDetail.do?cn=JAKO200604623502719"
+                            }
+                        ]
+                    },
+                    {
+                        "@metaGroupCode": "CitingDocumentInfo",
+                        "@metaGroupName": "CitingDocumentInfo",
+                        "@number": "2",
+                        "item": [
+                            {
+                                "@metaCode": "CitingTitle",
+                                "@metaName": "인용문헌논문명",
+                                "#text": "Rapid Prototyping and Reverse Engineering Application for Orthopedic Surgery Planning"
+                            },
+                            {
+                                "@metaCode": "CitingCn",
+                                "@metaName": "인용문헌CN"
+                            },
+                            {
+                                "@metaCode": "CitingMeterialType",
+                                "@metaName": "인용문헌자료유형"
+                            },
+                            {
+                                "@metaCode": "CitingLanguage",
+                                "@metaName": "인용문헌언어",
+                                "#text": "eng"
+                            },
+                            {
+                                "@metaCode": "CitingAuthor",
+                                "@metaName": "인용문헌저자",
+                                "#text": "Ahn Dong-Gyu;Lee Jun-Young;Yang Dong-Yol;"
+                            },
+                            {
+                                "@metaCode": "CitingIssn",
+                                "@metaName": "인용문헌ISSN",
+                                "#text": "1738-494x"
+                            },
+                            {
+                                "@metaCode": "CitingIsbn",
+                                "@metaName": "인용문헌ISBN"
+                            },
+                            {
+                                "@metaCode": "CitingVolNo1",
+                                "@metaName": "인용문헌권번호",
+                                "#text": "20"
+                            },
+                            {
+                                "@metaCode": "CitingVolNo2",
+                                "@metaName": "인용문헌호번호",
+                                "#text": "11"
+                            },
+                            {
+                                "@metaCode": "CitingPage",
+                                "@metaName": "인용문헌페이지정보",
+                                "#text": "19-28"
+                            },
+                            {
+                                "@metaCode": "CitingPubyear",
+                                "@metaName": "인용문헌발행년",
+                                "#text": "2006"
+                            },
+                            {
+                                "@metaCode": "CitingLinkResolver",
+                                "@metaName": "인용문헌링크리졸버",
+                                "#text": "http://click.ndsl.kr/servlet/resolverService?sid=ksci&genre=article&id=doi:https%3A%2F%2Fdoi.org%2F10.1007%2Fbf02916196&atitle=Rapid+Prototyping+and+Reverse+Engineering+Application+for+Orthopedic+Surgery+Planning&issn=1738-494x&volume=20&date=2006&spage=19-28&pid=%3Cprivate_id%3Eorg_code%3D0260%26site_code%3DSS9999%26kscino%3D%26cen%3DJAKO200609408738173%26ndslartctrlno%3D27917085%3C%2Fprivate_id%3E"
+                            },
+                            {
+                                "@metaCode": "CitingFulltextURL",
+                                "@metaName": "인용문헌원문URL",
+                                "#text": "http://www.ndsl.kr/ndsl/commons/util/ndslOriginalView.do?dbt=JAKO&cn=JAKO200609408738173&oCn=JAKO200609408738173&pageCode=PG13&journal=NJOU00078086"
+                            },
+                            {
+                                "@metaCode": "CitingDOI",
+                                "@metaName": "인용문헌DOI",
+                                "#text": "https://doi.org/10.1007/bf02916196"
+                            },
+                            {
+                                "@metaCode": "CitingPMIDLink",
+                                "@metaName": "인용문헌Pubmed링크"
+                            },
+                            {
+                                "@metaCode": "CitingContentURL",
+                                "@metaName": "인용문헌상세링크",
+                                "#text": "http://www.ndsl.kr/ndsl/search/detail/article/articleSearchResultDetail.do?cn=JAKO200609408738173"
+                            }
+                        ]
+                    },
+                    {
+                        "@metaGroupCode": "CitingDocumentInfo",
+                        "@metaGroupName": "CitingDocumentInfo",
+                        "@number": "3",
+                        "item": [
+                            {
+                                "@metaCode": "CitingTitle",
+                                "@metaName": "인용문헌논문명",
+                                "#text": "카오스 해석법을 이용한 전방십자인대 재건수술 환자와 정상인의 보행연구"
+                            },
+                            {
+                                "@metaCode": "CitingCn",
+                                "@metaName": "인용문헌CN"
+                            },
+                            {
+                                "@metaCode": "CitingMeterialType",
+                                "@metaName": "인용문헌자료유형"
+                            },
+                            {
+                                "@metaCode": "CitingLanguage",
+                                "@metaName": "인용문헌언어",
+                                "#text": "kor"
+                            },
+                            {
+                                "@metaCode": "CitingAuthor",
+                                "@metaName": "인용문헌저자",
+                                "#text": "고재훈;손권;박정홍;서정탁;"
+                            },
+                            {
+                                "@metaCode": "CitingIssn",
+                                "@metaName": "인용문헌ISSN",
+                                "#text": "1225-9071"
+                            },
+                            {
+                                "@metaCode": "CitingIsbn",
+                                "@metaName": "인용문헌ISBN"
+                            },
+                            {
+                                "@metaCode": "CitingVolNo1",
+                                "@metaName": "인용문헌권번호",
+                                "#text": "23"
+                            },
+                            {
+                                "@metaCode": "CitingVolNo2",
+                                "@metaName": "인용문헌호번호",
+                                "#text": "11"
+                            },
+                            {
+                                "@metaCode": "CitingPage",
+                                "@metaName": "인용문헌페이지정보",
+                                "#text": "164-171"
+                            },
+                            {
+                                "@metaCode": "CitingPubyear",
+                                "@metaName": "인용문헌발행년",
+                                "#text": "2006"
+                            },
+                            {
+                                "@metaCode": "CitingLinkResolver",
+                                "@metaName": "인용문헌링크리졸버",
+                                "#text": "http://click.ndsl.kr/servlet/resolverService?sid=ksci&genre=article&atitle=%EC%B9%B4%EC%98%A4%EC%8A%A4+%ED%95%B4%EC%84%9D%EB%B2%95%EC%9D%84+%EC%9D%B4%EC%9A%A9%ED%95%9C+%EC%A0%84%EB%B0%A9%EC%8B%AD%EC%9E%90%EC%9D%B8%EB%8C%80+%EC%9E%AC%EA%B1%B4%EC%88%98%EC%88%A0+%ED%99%98%EC%9E%90%EC%99%80+%EC%A0%95%EC%83%81%EC%9D%B8%EC%9D%98+%EB%B3%B4%ED%96%89%EC%97%B0%EA%B5%AC&issn=1225-9071&volume=23&date=2006&spage=164-171&pid=%3Cprivate_id%3Eorg_code%3D0260%26site_code%3DSS9999%26kscino%3D%26cen%3DJAKO200614222993764%26ndslartctrlno%3D36424122%3C%2Fprivate_id%3E"
+                            },
+                            {
+                                "@metaCode": "CitingFulltextURL",
+                                "@metaName": "인용문헌원문URL",
+                                "#text": "http://www.ndsl.kr/ndsl/commons/util/ndslOriginalView.do?dbt=JAKO&cn=JAKO200614222993764&oCn=JAKO200614222993764&pageCode=PG13&journal=NJOU00024214"
+                            },
+                            {
+                                "@metaCode": "CitingDOI",
+                                "@metaName": "인용문헌DOI"
+                            },
+                            {
+                                "@metaCode": "CitingPMIDLink",
+                                "@metaName": "인용문헌Pubmed링크"
+                            },
+                            {
+                                "@metaCode": "CitingContentURL",
+                                "@metaName": "인용문헌상세링크",
+                                "#text": "http://www.ndsl.kr/ndsl/search/detail/article/articleSearchResultDetail.do?cn=JAKO200614222993764"
+                            }
+                        ]
+                    },
+                    {
+                        "@metaGroupCode": "CitingDocumentInfo",
+                        "@metaGroupName": "CitingDocumentInfo",
+                        "@number": "4",
+                        "item": [
+                            {
+                                "@metaCode": "CitingTitle",
+                                "@metaName": "인용문헌논문명",
+                                "#text": "카오스 이론을 적용한 보행분석 연구"
+                            },
+                            {
+                                "@metaCode": "CitingCn",
+                                "@metaName": "인용문헌CN"
+                            },
+                            {
+                                "@metaCode": "CitingMeterialType",
+                                "@metaName": "인용문헌자료유형"
+                            },
+                            {
+                                "@metaCode": "CitingLanguage",
+                                "@metaName": "인용문헌언어",
+                                "#text": "kor"
+                            },
+                            {
+                                "@metaCode": "CitingAuthor",
+                                "@metaName": "인용문헌저자",
+                                "#text": "박기봉;고재훈;문병영;서정탁;손권;"
+                            },
+                            {
+                                "@metaCode": "CitingIssn",
+                                "@metaName": "인용문헌ISSN",
+                                "#text": "1226-4873"
+                            },
+                            {
+                                "@metaCode": "CitingIsbn",
+                                "@metaName": "인용문헌ISBN"
+                            },
+                            {
+                                "@metaCode": "CitingVolNo1",
+                                "@metaName": "인용문헌권번호",
+                                "#text": "30"
+                            },
+                            {
+                                "@metaCode": "CitingVolNo2",
+                                "@metaName": "인용문헌호번호",
+                                "#text": "11"
+                            },
+                            {
+                                "@metaCode": "CitingPage",
+                                "@metaName": "인용문헌페이지정보",
+                                "#text": "194-201"
+                            },
+                            {
+                                "@metaCode": "CitingPubyear",
+                                "@metaName": "인용문헌발행년",
+                                "#text": "2006"
+                            },
+                            {
+                                "@metaCode": "CitingLinkResolver",
+                                "@metaName": "인용문헌링크리졸버",
+                                "#text": "http://click.ndsl.kr/servlet/resolverService?sid=ksci&genre=article&id=doi:https%3A%2F%2Fdoi.org%2F10.3795%2Fksme-a.2006.30.2.194&atitle=%EC%B9%B4%EC%98%A4%EC%8A%A4+%EC%9D%B4%EB%A1%A0%EC%9D%84+%EC%A0%81%EC%9A%A9%ED%95%9C+%EB%B3%B4%ED%96%89%EB%B6%84%EC%84%9D+%EC%97%B0%EA%B5%AC&issn=1226-4873&volume=30&date=2006&spage=194-201&pid=%3Cprivate_id%3Eorg_code%3D0260%26site_code%3DSS9999%26kscino%3D%26cen%3DJAKO200614222994029%26ndslartctrlno%3D34673667%3C%2Fprivate_id%3E"
+                            },
+                            {
+                                "@metaCode": "CitingFulltextURL",
+                                "@metaName": "인용문헌원문URL",
+                                "#text": "http://www.ndsl.kr/ndsl/commons/util/ndslOriginalView.do?dbt=JAKO&cn=JAKO200614222994029&oCn=JAKO200614222994029&pageCode=PG13&journal=NJOU00290524"
+                            },
+                            {
+                                "@metaCode": "CitingDOI",
+                                "@metaName": "인용문헌DOI",
+                                "#text": "https://doi.org/10.3795/ksme-a.2006.30.2.194"
+                            },
+                            {
+                                "@metaCode": "CitingPMIDLink",
+                                "@metaName": "인용문헌Pubmed링크"
+                            },
+                            {
+                                "@metaCode": "CitingContentURL",
+                                "@metaName": "인용문헌상세링크",
+                                "#text": "http://www.ndsl.kr/ndsl/search/detail/article/articleSearchResultDetail.do?cn=JAKO200614222994029"
+                            }
+                        ]
+                    },
+                    {
+                        "@metaGroupCode": "CitingDocumentInfo",
+                        "@metaGroupName": "CitingDocumentInfo",
+                        "@number": "5",
+                        "item": [
+                            {
+                                "@metaCode": "CitingTitle",
+                                "@metaName": "인용문헌논문명",
+                                "#text": "전방십자인대의 최적 재건을 위한 등장성 해석"
+                            },
+                            {
+                                "@metaCode": "CitingCn",
+                                "@metaName": "인용문헌CN"
+                            },
+                            {
+                                "@metaCode": "CitingMeterialType",
+                                "@metaName": "인용문헌자료유형"
+                            },
+                            {
+                                "@metaCode": "CitingLanguage",
+                                "@metaName": "인용문헌언어",
+                                "#text": "kor"
+                            },
+                            {
+                                "@metaCode": "CitingAuthor",
+                                "@metaName": "인용문헌저자",
+                                "#text": "박정홍;서정탁;문병영;손권;"
+                            },
+                            {
+                                "@metaCode": "CitingIssn",
+                                "@metaName": "인용문헌ISSN",
+                                "#text": "1226-4873"
+                            },
+                            {
+                                "@metaCode": "CitingIsbn",
+                                "@metaName": "인용문헌ISBN"
+                            },
+                            {
+                                "@metaCode": "CitingVolNo1",
+                                "@metaName": "인용문헌권번호",
+                                "#text": "30"
+                            },
+                            {
+                                "@metaCode": "CitingVolNo2",
+                                "@metaName": "인용문헌호번호",
+                                "#text": "11"
+                            },
+                            {
+                                "@metaCode": "CitingPage",
+                                "@metaName": "인용문헌페이지정보",
+                                "#text": "457-464"
+                            },
+                            {
+                                "@metaCode": "CitingPubyear",
+                                "@metaName": "인용문헌발행년",
+                                "#text": "2006"
+                            },
+                            {
+                                "@metaCode": "CitingLinkResolver",
+                                "@metaName": "인용문헌링크리졸버",
+                                "#text": "http://click.ndsl.kr/servlet/resolverService?sid=ksci&genre=article&id=doi:https%3A%2F%2Fdoi.org%2F10.3795%2Fksme-a.2006.30.4.457&atitle=%EC%A0%84%EB%B0%A9%EC%8B%AD%EC%9E%90%EC%9D%B8%EB%8C%80%EC%9D%98+%EC%B5%9C%EC%A0%81+%EC%9E%AC%EA%B1%B4%EC%9D%84+%EC%9C%84%ED%95%9C+%EB%93%B1%EC%9E%A5%EC%84%B1+%ED%95%B4%EC%84%9D&issn=1226-4873&volume=30&date=2006&spage=457-464&pid=%3Cprivate_id%3Eorg_code%3D0260%26site_code%3DSS9999%26kscino%3D%26cen%3DJAKO200619129100029%26ndslartctrlno%3D34678205%3C%2Fprivate_id%3E"
+                            },
+                            {
+                                "@metaCode": "CitingFulltextURL",
+                                "@metaName": "인용문헌원문URL",
+                                "#text": "http://www.ndsl.kr/ndsl/commons/util/ndslOriginalView.do?dbt=JAKO&cn=JAKO200619129100029&oCn=JAKO200619129100029&pageCode=PG13&journal=NJOU00290524"
+                            },
+                            {
+                                "@metaCode": "CitingDOI",
+                                "@metaName": "인용문헌DOI",
+                                "#text": "https://doi.org/10.3795/ksme-a.2006.30.4.457"
+                            },
+                            {
+                                "@metaCode": "CitingPMIDLink",
+                                "@metaName": "인용문헌Pubmed링크"
+                            },
+                            {
+                                "@metaCode": "CitingContentURL",
+                                "@metaName": "인용문헌상세링크",
+                                "#text": "http://www.ndsl.kr/ndsl/search/detail/article/articleSearchResultDetail.do?cn=JAKO200619129100029"
+                            }
+                        ]
+                    },
+                    {
+                        "@metaGroupCode": "CitingDocumentInfo",
+                        "@metaGroupName": "CitingDocumentInfo",
+                        "@number": "6",
+                        "item": [
+                            {
+                                "@metaCode": "CitingTitle",
+                                "@metaName": "인용문헌논문명",
+                                "#text": "Knee Joint Analysis for Optimal Ligament Surgical Reconstruction Using Three Dimensional Motion Model"
+                            },
+                            {
+                                "@metaCode": "CitingCn",
+                                "@metaName": "인용문헌CN"
+                            },
+                            {
+                                "@metaCode": "CitingMeterialType",
+                                "@metaName": "인용문헌자료유형"
+                            },
+                            {
+                                "@metaCode": "CitingLanguage",
+                                "@metaName": "인용문헌언어",
+                                "#text": "eng"
+                            },
+                            {
+                                "@metaCode": "CitingAuthor",
+                                "@metaName": "인용문헌저자",
+                                "#text": "Moon, Byung Young;Kang, H. K.;Son, Kwon;Chung, S.W.;"
+                            },
+                            {
+                                "@metaCode": "CitingIssn",
+                                "@metaName": "인용문헌ISSN",
+                                "#text": "1013-9826"
+                            },
+                            {
+                                "@metaCode": "CitingIsbn",
+                                "@metaName": "인용문헌ISBN"
+                            },
+                            {
+                                "@metaCode": "CitingVolNo1",
+                                "@metaName": "인용문헌권번호",
+                                "#text": "321"
+                            },
+                            {
+                                "@metaCode": "CitingVolNo2",
+                                "@metaName": "인용문헌호번호"
+                            },
+                            {
+                                "@metaCode": "CitingPage",
+                                "@metaName": "인용문헌페이지정보",
+                                "#text": "156-160"
+                            },
+                            {
+                                "@metaCode": "CitingPubyear",
+                                "@metaName": "인용문헌발행년",
+                                "#text": "2006"
+                            },
+                            {
+                                "@metaCode": "CitingLinkResolver",
+                                "@metaName": "인용문헌링크리졸버",
+                                "#text": "http://click.ndsl.kr/servlet/resolverService?sid=ksci&genre=article&id=doi:https%3A%2F%2Fdoi.org%2F10.4028%2Fwww.scientific.net%2Fkem.321-323.156&atitle=Knee+Joint+Analysis+for+Optimal+Ligament+Surgical+Reconstruction+Using+Three+Dimensional+Motion+Model&issn=1013-9826&volume=321&date=2006&spage=156-160&pid=%3Cprivate_id%3Eorg_code%3D0260%26site_code%3DSS9999%26kscino%3D%26cen%3DNART93105411%26ndslartctrlno%3D93105411%3C%2Fprivate_id%3E"
+                            },
+                            {
+                                "@metaCode": "CitingFulltextURL",
+                                "@metaName": "인용문헌원문URL"
+                            },
+                            {
+                                "@metaCode": "CitingDOI",
+                                "@metaName": "인용문헌DOI",
+                                "#text": "https://doi.org/10.4028/www.scientific.net/kem.321-323.156"
+                            },
+                            {
+                                "@metaCode": "CitingPMIDLink",
+                                "@metaName": "인용문헌Pubmed링크"
+                            },
+                            {
+                                "@metaCode": "CitingContentURL",
+                                "@metaName": "인용문헌상세링크",
+                                "#text": "http://www.ndsl.kr/ndsl/search/detail/article/articleSearchResultDetail.do?cn=NART93105411"
+                            }
+                        ]
+                    },
+                    {
+                        "@metaGroupCode": "ContentsUrlInfo",
+                        "@metaGroupName": "콘텐츠별URL정보",
+                        "@number": "1",
+                        "item": [
+                            {
+                                "@metaCode": "Gubun",
+                                "@metaName": "콘텐츠구분",
+                                "#text": "논문"
+                            },
+                            {
+                                "@metaCode": "Message",
+                                "@metaName": "이용가능범위",
+                                "#text": "원문까지 이용가능"
+                            },
+                            {
+                                "@metaCode": "Usedate",
+                                "@metaName": "콘텐츠이용가능기간",
+                                "#text": "1996.01-2017.11"
+                            },
+                            {
+                                "@metaCode": "URL",
+                                "@metaName": "원문링크정보",
+                                "#text": "http://click.ndsl.kr/servlet/OpenAPIFullTextView?cn=JAKO200411922932805&dbt=JAKO&keyValue=05787966"
+                            }
+                        ]
+                    },
+                    {
+                        "@metaGroupCode": "ContentsUrlInfo",
+                        "@metaGroupName": "콘텐츠별URL정보",
+                        "@number": "2",
+                        "item": [
+                            {
+                                "@metaCode": "Gubun",
+                                "@metaName": "콘텐츠구분",
+                                "#text": "논문"
+                            },
+                            {
+                                "@metaCode": "Message",
+                                "@metaName": "이용가능범위",
+                                "#text": "원문까지 이용가능"
+                            },
+                            {
+                                "@metaCode": "Usedate",
+                                "@metaName": "콘텐츠이용가능기간",
+                                "#text": "1996.01-2017.11"
+                            },
+                            {
+                                "@metaCode": "URL",
+                                "@metaName": "원문링크정보",
+                                "#text": "10.3795/KSME-A.2004.28.11.1664"
+                            }
+                        ]
+                    },
+                    {
+                        "@metaGroupCode": "ContentsUrlInfo",
+                        "@metaGroupName": "콘텐츠별URL정보",
+                        "@number": "3",
+                        "item": [
+                            {
+                                "@metaCode": "Gubun",
+                                "@metaName": "콘텐츠구분",
+                                "#text": "저널"
+                            },
+                            {
+                                "@metaCode": "Message",
+                                "@metaName": "이용가능범위",
+                                "#text": "원문까지 이용가능"
+                            },
+                            {
+                                "@metaCode": "Usedate",
+                                "@metaName": "콘텐츠이용가능기간",
+                                "#text": "1996.01-2017.11"
+                            },
+                            {
+                                "@metaCode": "URL",
+                                "@metaName": "원문링크정보",
+                                "#text": "https://koreascience.kr/journal/DHGGCI.page"
+                            }
+                        ]
+                    },
+                    {
+                        "@metaGroupCode": "ContentsUrlInfo",
+                        "@metaGroupName": "콘텐츠별URL정보",
+                        "@number": "4",
+                        "item": [
+                            {
+                                "@metaCode": "Gubun",
+                                "@metaName": "콘텐츠구분",
+                                "#text": "저널"
+                            },
+                            {
+                                "@metaCode": "Message",
+                                "@metaName": "이용가능범위",
+                                "#text": "논문목차/초록까지만 이용가능"
+                            },
+                            {
+                                "@metaCode": "Usedate",
+                                "@metaName": "콘텐츠이용가능기간",
+                                "#text": "1996.01-"
+                            },
+                            {
+                                "@metaCode": "URL",
+                                "@metaName": "원문링크정보",
+                                "#text": "http://www.dbpia.co.kr/journal/publicationDetail?publicationId=PLCT00000450"
+                            }
+                        ]
+                    },
+                    {
+                        "@metaGroupCode": "CitedDocumentInfo",
+                        "@metaGroupName": "CitedDocumentInfo",
+                        "@number": "1",
+                        "item": [
+                            {
+                                "@metaCode": "CitedTitle",
+                                "@metaName": "참고문헌논문명",
+                                "#text": "인체 무릎 관절의 굴신 운동 해석 기법"
+                            },
+                            {
+                                "@metaCode": "CitedCn",
+                                "@metaName": "참고문헌CN",
+                                "#text": "34647393_1"
+                            },
+                            {
+                                "@metaCode": "CitedMeterialType",
+                                "@metaName": "참고문헌자료유형",
+                                "#text": "other"
+                            },
+                            {
+                                "@metaCode": "CitedLanguage",
+                                "@metaName": "참고문헌언어"
+                            },
+                            {
+                                "@metaCode": "CitedAuthor",
+                                "@metaName": "참고문헌저자",
+                                "#text": "문병영;손권;박정홍;서정탁;"
+                            },
+                            {
+                                "@metaCode": "CitedIssn",
+                                "@metaName": "참고문헌ISSN",
+                                "#text": "1225-9071"
+                            },
+                            {
+                                "@metaCode": "CitedIsbn",
+                                "@metaName": "참고문헌ISBN"
+                            },
+                            {
+                                "@metaCode": "CitedVolNo1",
+                                "@metaName": "참고문헌권번호",
+                                "#text": "20"
+                            },
+                            {
+                                "@metaCode": "CitedVolNo2",
+                                "@metaName": "참고문헌호번호",
+                                "#text": "10"
+                            },
+                            {
+                                "@metaCode": "CitedPage",
+                                "@metaName": "참고문헌페이지정보",
+                                "#text": "233"
+                            },
+                            {
+                                "@metaCode": "CitedPubyear",
+                                "@metaName": "참고문헌발행년",
+                                "#text": "2003"
+                            },
+                            {
+                                "@metaCode": "CitedLinkResolver",
+                                "@metaName": "참고문헌링크리졸버",
+                                "#text": "http://click.ndsl.kr/servlet/resolverService?sid=ksci&genre=article&atitle=%EC%9D%B8%EC%B2%B4+%EB%AC%B4%EB%A6%8E+%EA%B4%80%EC%A0%88%EC%9D%98+%EA%B5%B4%EC%8B%A0+%EC%9A%B4%EB%8F%99+%ED%95%B4%EC%84%9D+%EA%B8%B0%EB%B2%95&issn=1225-9071&volume=20&date=2003&spage=233&pid=%3Cprivate_id%3Eorg_code%3D0260%26site_code%3DSS9999%26kscino%3D34647393_1%26cen%3D%26ndslartctrlno%3D%3C%2Fprivate_id%3E"
+                            },
+                            {
+                                "@metaCode": "CitedFulltextURL",
+                                "@metaName": "참고문헌원문URL"
+                            },
+                            {
+                                "@metaCode": "CitedDOI",
+                                "@metaName": "참고문헌DOI"
+                            },
+                            {
+                                "@metaCode": "CitedPMIDLink",
+                                "@metaName": "참고문헌Pubmed링크"
+                            },
+                            {
+                                "@metaCode": "CitedContentURL",
+                                "@metaName": "참고문헌상세링크"
+                            },
+                            {
+                                "@metaCode": "CitedJournalName",
+                                "@metaName": "참고문헌저널명",
+                                "#text": "한국정밀공학회지"
+                            },
+                            {
+                                "@metaCode": "CitedOfInfo",
+                                "@metaName": "참고문헌정보"
+                            }
+                        ]
+                    },
+                    {
+                        "@metaGroupCode": "CitedDocumentInfo",
+                        "@metaGroupName": "CitedDocumentInfo",
+                        "@number": "2",
+                        "item": [
+                            {
+                                "@metaCode": "CitedTitle",
+                                "@metaName": "참고문헌논문명",
+                                "#text": "Direct Measurement of Patellar Thickness in Total Knee Replacement Arthroplasty"
+                            },
+                            {
+                                "@metaCode": "CitedCn",
+                                "@metaName": "참고문헌CN",
+                                "#text": "34647393_10"
+                            },
+                            {
+                                "@metaCode": "CitedMeterialType",
+                                "@metaName": "참고문헌자료유형",
+                                "#text": "other"
+                            },
+                            {
+                                "@metaCode": "CitedLanguage",
+                                "@metaName": "참고문헌언어"
+                            },
+                            {
+                                "@metaCode": "CitedAuthor",
+                                "@metaName": "참고문헌저자",
+                                "#text": "Kim, H.C.;Han, S.K.;Sin, D.H.;"
+                            },
+                            {
+                                "@metaCode": "CitedIssn",
+                                "@metaName": "참고문헌ISSN"
+                            },
+                            {
+                                "@metaCode": "CitedIsbn",
+                                "@metaName": "참고문헌ISBN"
+                            },
+                            {
+                                "@metaCode": "CitedVolNo1",
+                                "@metaName": "참고문헌권번호"
+                            },
+                            {
+                                "@metaCode": "CitedVolNo2",
+                                "@metaName": "참고문헌호번호"
+                            },
+                            {
+                                "@metaCode": "CitedPage",
+                                "@metaName": "참고문헌페이지정보",
+                                "#text": "4"
+                            },
+                            {
+                                "@metaCode": "CitedPubyear",
+                                "@metaName": "참고문헌발행년",
+                                "#text": "2001"
+                            },
+                            {
+                                "@metaCode": "CitedLinkResolver",
+                                "@metaName": "참고문헌링크리졸버",
+                                "#text": "http://click.ndsl.kr/servlet/resolverService?sid=ksci&genre=article&atitle=Direct+Measurement+of+Patellar+Thickness+in+Total+Knee+Replacement+Arthroplasty&date=2001&spage=4&pid=%3Cprivate_id%3Eorg_code%3D0260%26site_code%3DSS9999%26kscino%3D34647393_10%26cen%3D%26ndslartctrlno%3D%3C%2Fprivate_id%3E"
+                            },
+                            {
+                                "@metaCode": "CitedFulltextURL",
+                                "@metaName": "참고문헌원문URL"
+                            },
+                            {
+                                "@metaCode": "CitedDOI",
+                                "@metaName": "참고문헌DOI"
+                            },
+                            {
+                                "@metaCode": "CitedPMIDLink",
+                                "@metaName": "참고문헌Pubmed링크"
+                            },
+                            {
+                                "@metaCode": "CitedContentURL",
+                                "@metaName": "참고문헌상세링크"
+                            },
+                            {
+                                "@metaCode": "CitedJournalName",
+                                "@metaName": "참고문헌저널명",
+                                "#text": "The 19th Conference of Korean Knee Society"
+                            },
+                            {
+                                "@metaCode": "CitedOfInfo",
+                                "@metaName": "참고문헌정보"
+                            }
+                        ]
+                    },
+                    {
+                        "@metaGroupCode": "CitedDocumentInfo",
+                        "@metaGroupName": "CitedDocumentInfo",
+                        "@number": "3",
+                        "item": [
+                            {
+                                "@metaCode": "CitedTitle",
+                                "@metaName": "참고문헌논문명",
+                                "#text": "Patellar Thickness in TKRA of Koreans"
+                            },
+                            {
+                                "@metaCode": "CitedCn",
+                                "@metaName": "참고문헌CN",
+                                "#text": "34647393_11"
+                            },
+                            {
+                                "@metaCode": "CitedMeterialType",
+                                "@metaName": "참고문헌자료유형",
+                                "#text": "other"
+                            },
+                            {
+                                "@metaCode": "CitedLanguage",
+                                "@metaName": "참고문헌언어"
+                            },
+                            {
+                                "@metaCode": "CitedAuthor",
+                                "@metaName": "참고문헌저자",
+                                "#text": "Jung, H.K.;Choi, C.H.;Kim, K.T.;Kim, Y.J.;"
+                            },
+                            {
+                                "@metaCode": "CitedIssn",
+                                "@metaName": "참고문헌ISSN"
+                            },
+                            {
+                                "@metaCode": "CitedIsbn",
+                                "@metaName": "참고문헌ISBN"
+                            },
+                            {
+                                "@metaCode": "CitedVolNo1",
+                                "@metaName": "참고문헌권번호"
+                            },
+                            {
+                                "@metaCode": "CitedVolNo2",
+                                "@metaName": "참고문헌호번호"
+                            },
+                            {
+                                "@metaCode": "CitedPage",
+                                "@metaName": "참고문헌페이지정보",
+                                "#text": "1"
+                            },
+                            {
+                                "@metaCode": "CitedPubyear",
+                                "@metaName": "참고문헌발행년",
+                                "#text": "2001"
+                            },
+                            {
+                                "@metaCode": "CitedLinkResolver",
+                                "@metaName": "참고문헌링크리졸버",
+                                "#text": "http://click.ndsl.kr/servlet/resolverService?sid=ksci&genre=article&atitle=Patellar+Thickness+in+TKRA+of+Koreans&date=2001&spage=1&pid=%3Cprivate_id%3Eorg_code%3D0260%26site_code%3DSS9999%26kscino%3D34647393_11%26cen%3D%26ndslartctrlno%3D%3C%2Fprivate_id%3E"
+                            },
+                            {
+                                "@metaCode": "CitedFulltextURL",
+                                "@metaName": "참고문헌원문URL"
+                            },
+                            {
+                                "@metaCode": "CitedDOI",
+                                "@metaName": "참고문헌DOI"
+                            },
+                            {
+                                "@metaCode": "CitedPMIDLink",
+                                "@metaName": "참고문헌Pubmed링크"
+                            },
+                            {
+                                "@metaCode": "CitedContentURL",
+                                "@metaName": "참고문헌상세링크"
+                            },
+                            {
+                                "@metaCode": "CitedJournalName",
+                                "@metaName": "참고문헌저널명",
+                                "#text": "The 19th Conference of Korean Knee Society"
+                            },
+                            {
+                                "@metaCode": "CitedOfInfo",
+                                "@metaName": "참고문헌정보"
+                            }
+                        ]
+                    },
+                    {
+                        "@metaGroupCode": "CitedDocumentInfo",
+                        "@metaGroupName": "CitedDocumentInfo",
+                        "@number": "4",
+                        "item": [
+                            {
+                                "@metaCode": "CitedTitle",
+                                "@metaName": "참고문헌논문명",
+                                "#text": "The Study of Anatomical Measurement of Distal Femur and Fitness of Femoral Prosthesis in Total Knee Arthroplasty"
+                            },
+                            {
+                                "@metaCode": "CitedCn",
+                                "@metaName": "참고문헌CN",
+                                "#text": "34647393_12"
+                            },
+                            {
+                                "@metaCode": "CitedMeterialType",
+                                "@metaName": "참고문헌자료유형",
+                                "#text": "other"
+                            },
+                            {
+                                "@metaCode": "CitedLanguage",
+                                "@metaName": "참고문헌언어"
+                            },
+                            {
+                                "@metaCode": "CitedAuthor",
+                                "@metaName": "참고문헌저자",
+                                "#text": "Bae, D.K.;Lee, Y.H.;Chung, S.W.;"
+                            },
+                            {
+                                "@metaCode": "CitedIssn",
+                                "@metaName": "참고문헌ISSN"
+                            },
+                            {
+                                "@metaCode": "CitedIsbn",
+                                "@metaName": "참고문헌ISBN"
+                            },
+                            {
+                                "@metaCode": "CitedVolNo1",
+                                "@metaName": "참고문헌권번호",
+                                "#text": "1"
+                            },
+                            {
+                                "@metaCode": "CitedVolNo2",
+                                "@metaName": "참고문헌호번호"
+                            },
+                            {
+                                "@metaCode": "CitedPage",
+                                "@metaName": "참고문헌페이지정보",
+                                "#text": "7"
+                            },
+                            {
+                                "@metaCode": "CitedPubyear",
+                                "@metaName": "참고문헌발행년",
+                                "#text": "2001"
+                            },
+                            {
+                                "@metaCode": "CitedLinkResolver",
+                                "@metaName": "참고문헌링크리졸버",
+                                "#text": "http://click.ndsl.kr/servlet/resolverService?sid=ksci&genre=article&atitle=The+Study+of+Anatomical+Measurement+of+Distal+Femur+and+Fitness+of+Femoral+Prosthesis+in+Total+Knee+Arthroplasty&volume=1&date=2001&spage=7&pid=%3Cprivate_id%3Eorg_code%3D0260%26site_code%3DSS9999%26kscino%3D34647393_12%26cen%3D%26ndslartctrlno%3D%3C%2Fprivate_id%3E"
+                            },
+                            {
+                                "@metaCode": "CitedFulltextURL",
+                                "@metaName": "참고문헌원문URL"
+                            },
+                            {
+                                "@metaCode": "CitedDOI",
+                                "@metaName": "참고문헌DOI"
+                            },
+                            {
+                                "@metaCode": "CitedPMIDLink",
+                                "@metaName": "참고문헌Pubmed링크"
+                            },
+                            {
+                                "@metaCode": "CitedContentURL",
+                                "@metaName": "참고문헌상세링크"
+                            },
+                            {
+                                "@metaCode": "CitedJournalName",
+                                "@metaName": "참고문헌저널명",
+                                "#text": "The 19th Conference of Korean Knee Society"
+                            },
+                            {
+                                "@metaCode": "CitedOfInfo",
+                                "@metaName": "참고문헌정보"
+                            }
+                        ]
+                    },
+                    {
+                        "@metaGroupCode": "CitedDocumentInfo",
+                        "@metaGroupName": "CitedDocumentInfo",
+                        "@number": "5",
+                        "item": [
+                            {
+                                "@metaCode": "CitedTitle",
+                                "@metaName": "참고문헌논문명",
+                                "#text": "A three-dimensional mathematical model of the knee-joint"
+                            },
+                            {
+                                "@metaCode": "CitedCn",
+                                "@metaName": "참고문헌CN",
+                                "#text": "34647393_2"
+                            },
+                            {
+                                "@metaCode": "CitedMeterialType",
+                                "@metaName": "참고문헌자료유형",
+                                "#text": "journal"
+                            },
+                            {
+                                "@metaCode": "CitedLanguage",
+                                "@metaName": "참고문헌언어"
+                            },
+                            {
+                                "@metaCode": "CitedAuthor",
+                                "@metaName": "참고문헌저자",
+                                "#text": "Wismans, J.;Veldpaus, F.;Janssen, J.;Huson, A.;Struben, P.;"
+                            },
+                            {
+                                "@metaCode": "CitedIssn",
+                                "@metaName": "참고문헌ISSN",
+                                "#text": "0021-9290"
+                            },
+                            {
+                                "@metaCode": "CitedIsbn",
+                                "@metaName": "참고문헌ISBN"
+                            },
+                            {
+                                "@metaCode": "CitedVolNo1",
+                                "@metaName": "참고문헌권번호",
+                                "#text": "13"
+                            },
+                            {
+                                "@metaCode": "CitedVolNo2",
+                                "@metaName": "참고문헌호번호",
+                                "#text": "8"
+                            },
+                            {
+                                "@metaCode": "CitedPage",
+                                "@metaName": "참고문헌페이지정보",
+                                "#text": "677"
+                            },
+                            {
+                                "@metaCode": "CitedPubyear",
+                                "@metaName": "참고문헌발행년",
+                                "#text": "1980"
+                            },
+                            {
+                                "@metaCode": "CitedLinkResolver",
+                                "@metaName": "참고문헌링크리졸버",
+                                "#text": "http://click.ndsl.kr/servlet/resolverService?sid=ksci&genre=article&id=doi:10.1016%2F0021-9290%2880%2990354-1&atitle=A+three-dimensional+mathematical+model+of+the+knee-joint&issn=0021-9290&volume=13&date=1980&spage=677&pid=%3Cprivate_id%3Eorg_code%3D0260%26site_code%3DSS9999%26kscino%3D34647393_2%26cen%3DNART21844489%26ndslartctrlno%3D21844489%3C%2Fprivate_id%3E"
+                            },
+                            {
+                                "@metaCode": "CitedFulltextURL",
+                                "@metaName": "참고문헌원문URL"
+                            },
+                            {
+                                "@metaCode": "CitedDOI",
+                                "@metaName": "참고문헌DOI",
+                                "#text": "http://dx.doi.org/10.1016/0021-9290(80)90354-1"
+                            },
+                            {
+                                "@metaCode": "CitedPMIDLink",
+                                "@metaName": "참고문헌Pubmed링크"
+                            },
+                            {
+                                "@metaCode": "CitedContentURL",
+                                "@metaName": "참고문헌상세링크",
+                                "#text": "http://www.ndsl.kr/ndsl/search/detail/article/articleSearchResultDetail.do?cn=NART21844489"
+                            },
+                            {
+                                "@metaCode": "CitedJournalName",
+                                "@metaName": "참고문헌저널명",
+                                "#text": "Journal of Biomechanics"
+                            },
+                            {
+                                "@metaCode": "CitedOfInfo",
+                                "@metaName": "참고문헌정보"
+                            }
+                        ]
+                    },
+                    {
+                        "@metaGroupCode": "CitedDocumentInfo",
+                        "@metaGroupName": "CitedDocumentInfo",
+                        "@number": "6",
+                        "item": [
+                            {
+                                "@metaCode": "CitedTitle",
+                                "@metaName": "참고문헌논문명",
+                                "#text": "Geometry and motion of the knee for implant and orthotic design"
+                            },
+                            {
+                                "@metaCode": "CitedCn",
+                                "@metaName": "참고문헌CN",
+                                "#text": "34647393_3"
+                            },
+                            {
+                                "@metaCode": "CitedMeterialType",
+                                "@metaName": "참고문헌자료유형",
+                                "#text": "journal"
+                            },
+                            {
+                                "@metaCode": "CitedLanguage",
+                                "@metaName": "참고문헌언어"
+                            },
+                            {
+                                "@metaCode": "CitedAuthor",
+                                "@metaName": "참고문헌저자",
+                                "#text": "Kurosawa, H.;Walker, P.S.;Abe, S.;Garg. A.;Hunter, T.;"
+                            },
+                            {
+                                "@metaCode": "CitedIssn",
+                                "@metaName": "참고문헌ISSN",
+                                "#text": "0021-9290"
+                            },
+                            {
+                                "@metaCode": "CitedIsbn",
+                                "@metaName": "참고문헌ISBN"
+                            },
+                            {
+                                "@metaCode": "CitedVolNo1",
+                                "@metaName": "참고문헌권번호",
+                                "#text": "18"
+                            },
+                            {
+                                "@metaCode": "CitedVolNo2",
+                                "@metaName": "참고문헌호번호",
+                                "#text": "7"
+                            },
+                            {
+                                "@metaCode": "CitedPage",
+                                "@metaName": "참고문헌페이지정보",
+                                "#text": "487"
+                            },
+                            {
+                                "@metaCode": "CitedPubyear",
+                                "@metaName": "참고문헌발행년",
+                                "#text": "1985"
+                            },
+                            {
+                                "@metaCode": "CitedLinkResolver",
+                                "@metaName": "참고문헌링크리졸버",
+                                "#text": "http://click.ndsl.kr/servlet/resolverService?sid=ksci&genre=article&id=doi:10.1016%2F0021-9290%2885%2990663-3&atitle=Geometry+and+motion+of+the+knee+for+implant+and+orthotic+design&issn=0021-9290&volume=18&date=1985&spage=487&pid=%3Cprivate_id%3Eorg_code%3D0260%26site_code%3DSS9999%26kscino%3D34647393_3%26cen%3DNART18114065%26ndslartctrlno%3D18114065%3C%2Fprivate_id%3E"
+                            },
+                            {
+                                "@metaCode": "CitedFulltextURL",
+                                "@metaName": "참고문헌원문URL"
+                            },
+                            {
+                                "@metaCode": "CitedDOI",
+                                "@metaName": "참고문헌DOI",
+                                "#text": "http://dx.doi.org/10.1016/0021-9290(85)90663-3"
+                            },
+                            {
+                                "@metaCode": "CitedPMIDLink",
+                                "@metaName": "참고문헌Pubmed링크"
+                            },
+                            {
+                                "@metaCode": "CitedContentURL",
+                                "@metaName": "참고문헌상세링크",
+                                "#text": "http://www.ndsl.kr/ndsl/search/detail/article/articleSearchResultDetail.do?cn=NART18114065"
+                            },
+                            {
+                                "@metaCode": "CitedJournalName",
+                                "@metaName": "참고문헌저널명",
+                                "#text": "Journal of Biomechanics"
+                            },
+                            {
+                                "@metaCode": "CitedOfInfo",
+                                "@metaName": "참고문헌정보"
+                            }
+                        ]
+                    },
+                    {
+                        "@metaGroupCode": "CitedDocumentInfo",
+                        "@metaGroupName": "CitedDocumentInfo",
+                        "@number": "7",
+                        "item": [
+                            {
+                                "@metaCode": "CitedTitle",
+                                "@metaName": "참고문헌논문명",
+                                "#text": "A mathematical model for the evaluation of the behaviour during flexion of condylar-type knee prostheses"
+                            },
+                            {
+                                "@metaCode": "CitedCn",
+                                "@metaName": "참고문헌CN",
+                                "#text": "34647393_4"
+                            },
+                            {
+                                "@metaCode": "CitedMeterialType",
+                                "@metaName": "참고문헌자료유형",
+                                "#text": "journal"
+                            },
+                            {
+                                "@metaCode": "CitedLanguage",
+                                "@metaName": "참고문헌언어"
+                            },
+                            {
+                                "@metaCode": "CitedAuthor",
+                                "@metaName": "참고문헌저자",
+                                "#text": "Essinger, J.R.;Leyvraz, P.F.;Heegard, J.H.;Robertson, D.D.;"
+                            },
+                            {
+                                "@metaCode": "CitedIssn",
+                                "@metaName": "참고문헌ISSN",
+                                "#text": "0021-9290"
+                            },
+                            {
+                                "@metaCode": "CitedIsbn",
+                                "@metaName": "참고문헌ISBN"
+                            },
+                            {
+                                "@metaCode": "CitedVolNo1",
+                                "@metaName": "참고문헌권번호",
+                                "#text": "22"
+                            },
+                            {
+                                "@metaCode": "CitedVolNo2",
+                                "@metaName": "참고문헌호번호",
+                                "#text": "11-12"
+                            },
+                            {
+                                "@metaCode": "CitedPage",
+                                "@metaName": "참고문헌페이지정보",
+                                "#text": "1229"
+                            },
+                            {
+                                "@metaCode": "CitedPubyear",
+                                "@metaName": "참고문헌발행년",
+                                "#text": "1989"
+                            },
+                            {
+                                "@metaCode": "CitedLinkResolver",
+                                "@metaName": "참고문헌링크리졸버",
+                                "#text": "http://click.ndsl.kr/servlet/resolverService?sid=ksci&genre=article&id=doi:10.1016%2F0021-9290%2889%2990225-X&atitle=A+mathematical+model+for+the+evaluation+of+the+behaviour+during+flexion+of+condylar-type+knee+prostheses&issn=0021-9290&volume=22&date=1989&spage=1229&pid=%3Cprivate_id%3Eorg_code%3D0260%26site_code%3DSS9999%26kscino%3D34647393_4%26cen%3DNART21845678%26ndslartctrlno%3D21845678%3C%2Fprivate_id%3E"
+                            },
+                            {
+                                "@metaCode": "CitedFulltextURL",
+                                "@metaName": "참고문헌원문URL"
+                            },
+                            {
+                                "@metaCode": "CitedDOI",
+                                "@metaName": "참고문헌DOI",
+                                "#text": "http://dx.doi.org/10.1016/0021-9290(89)90225-X"
+                            },
+                            {
+                                "@metaCode": "CitedPMIDLink",
+                                "@metaName": "참고문헌Pubmed링크"
+                            },
+                            {
+                                "@metaCode": "CitedContentURL",
+                                "@metaName": "참고문헌상세링크",
+                                "#text": "http://www.ndsl.kr/ndsl/search/detail/article/articleSearchResultDetail.do?cn=NART21845678"
+                            },
+                            {
+                                "@metaCode": "CitedJournalName",
+                                "@metaName": "참고문헌저널명",
+                                "#text": "Journal of Biomechanics"
+                            },
+                            {
+                                "@metaCode": "CitedOfInfo",
+                                "@metaName": "참고문헌정보"
+                            }
+                        ]
+                    },
+                    {
+                        "@metaGroupCode": "CitedDocumentInfo",
+                        "@metaGroupName": "CitedDocumentInfo",
+                        "@number": "8",
+                        "item": [
+                            {
+                                "@metaCode": "CitedTitle",
+                                "@metaName": "참고문헌논문명",
+                                "#text": "Simulation of 3-D Motion of the Knee Joint in Total Knee Arthroplasty"
+                            },
+                            {
+                                "@metaCode": "CitedCn",
+                                "@metaName": "참고문헌CN",
+                                "#text": "34647393_5"
+                            },
+                            {
+                                "@metaCode": "CitedMeterialType",
+                                "@metaName": "참고문헌자료유형",
+                                "#text": "other"
+                            },
+                            {
+                                "@metaCode": "CitedLanguage",
+                                "@metaName": "참고문헌언어"
+                            },
+                            {
+                                "@metaCode": "CitedAuthor",
+                                "@metaName": "참고문헌저자",
+                                "#text": "Mitsumasa, M.;Takuzo, I.;Shozo, K.;Shintaro, H.;Masahiro, K.;Shinichi, T.;Nobuhiro, T.;"
+                            },
+                            {
+                                "@metaCode": "CitedIssn",
+                                "@metaName": "참고문헌ISSN"
+                            },
+                            {
+                                "@metaCode": "CitedIsbn",
+                                "@metaName": "참고문헌ISBN"
+                            },
+                            {
+                                "@metaCode": "CitedVolNo1",
+                                "@metaName": "참고문헌권번호",
+                                "#text": "2"
+                            },
+                            {
+                                "@metaCode": "CitedVolNo2",
+                                "@metaName": "참고문헌호번호"
+                            },
+                            {
+                                "@metaCode": "CitedPage",
+                                "@metaName": "참고문헌페이지정보",
+                                "#text": "718"
+                            },
+                            {
+                                "@metaCode": "CitedPubyear",
+                                "@metaName": "참고문헌발행년",
+                                "#text": "1999"
+                            },
+                            {
+                                "@metaCode": "CitedLinkResolver",
+                                "@metaName": "참고문헌링크리졸버",
+                                "#text": "http://click.ndsl.kr/servlet/resolverService?sid=ksci&genre=article&atitle=Simulation+of+3-D+Motion+of+the+Knee+Joint+in+Total+Knee+Arthroplasty&volume=2&date=1999&spage=718&pid=%3Cprivate_id%3Eorg_code%3D0260%26site_code%3DSS9999%26kscino%3D34647393_5%26cen%3D%26ndslartctrlno%3D%3C%2Fprivate_id%3E"
+                            },
+                            {
+                                "@metaCode": "CitedFulltextURL",
+                                "@metaName": "참고문헌원문URL"
+                            },
+                            {
+                                "@metaCode": "CitedDOI",
+                                "@metaName": "참고문헌DOI"
+                            },
+                            {
+                                "@metaCode": "CitedPMIDLink",
+                                "@metaName": "참고문헌Pubmed링크"
+                            },
+                            {
+                                "@metaCode": "CitedContentURL",
+                                "@metaName": "참고문헌상세링크"
+                            },
+                            {
+                                "@metaCode": "CitedJournalName",
+                                "@metaName": "참고문헌저널명",
+                                "#text": "Proceedings of the Asia-Pacific Vibration Conference '99"
+                            },
+                            {
+                                "@metaCode": "CitedOfInfo",
+                                "@metaName": "참고문헌정보"
+                            }
+                        ]
+                    },
+                    {
+                        "@metaGroupCode": "CitedDocumentInfo",
+                        "@metaGroupName": "CitedDocumentInfo",
+                        "@number": "9",
+                        "item": [
+                            {
+                                "@metaCode": "CitedTitle",
+                                "@metaName": "참고문헌논문명",
+                                "#text": "Femoral articular shape and geometry: A three-dimensional computerized analysis of the knee"
+                            },
+                            {
+                                "@metaCode": "CitedCn",
+                                "@metaName": "참고문헌CN",
+                                "#text": "34647393_6"
+                            },
+                            {
+                                "@metaCode": "CitedMeterialType",
+                                "@metaName": "참고문헌자료유형",
+                                "#text": "journal"
+                            },
+                            {
+                                "@metaCode": "CitedLanguage",
+                                "@metaName": "참고문헌언어"
+                            },
+                            {
+                                "@metaCode": "CitedAuthor",
+                                "@metaName": "참고문헌저자",
+                                "#text": "Siu, David;Rudan, J.;Wever, H.W.;Griffiths, P.;"
+                            },
+                            {
+                                "@metaCode": "CitedIssn",
+                                "@metaName": "참고문헌ISSN"
+                            },
+                            {
+                                "@metaCode": "CitedIsbn",
+                                "@metaName": "참고문헌ISBN"
+                            },
+                            {
+                                "@metaCode": "CitedVolNo1",
+                                "@metaName": "참고문헌권번호",
+                                "#text": "11"
+                            },
+                            {
+                                "@metaCode": "CitedVolNo2",
+                                "@metaName": "참고문헌호번호",
+                                "#text": "2"
+                            },
+                            {
+                                "@metaCode": "CitedPage",
+                                "@metaName": "참고문헌페이지정보",
+                                "#text": "166"
+                            },
+                            {
+                                "@metaCode": "CitedPubyear",
+                                "@metaName": "참고문헌발행년",
+                                "#text": "1996"
+                            },
+                            {
+                                "@metaCode": "CitedLinkResolver",
+                                "@metaName": "참고문헌링크리졸버",
+                                "#text": "http://click.ndsl.kr/servlet/resolverService?sid=ksci&genre=article&id=doi:10.1016%2FS0883-5403%2805%2980012-9&atitle=Femoral+articular+shape+and+geometry%3A+A+three-dimensional+computerized+analysis+of+the+knee&volume=11&date=1996&spage=166&pid=%3Cprivate_id%3Eorg_code%3D0260%26site_code%3DSS9999%26kscino%3D34647393_6%26cen%3DNART47031138%26ndslartctrlno%3D47031138%3C%2Fprivate_id%3E"
+                            },
+                            {
+                                "@metaCode": "CitedFulltextURL",
+                                "@metaName": "참고문헌원문URL"
+                            },
+                            {
+                                "@metaCode": "CitedDOI",
+                                "@metaName": "참고문헌DOI",
+                                "#text": "http://dx.doi.org/10.1016/S0883-5403(05)80012-9"
+                            },
+                            {
+                                "@metaCode": "CitedPMIDLink",
+                                "@metaName": "참고문헌Pubmed링크"
+                            },
+                            {
+                                "@metaCode": "CitedContentURL",
+                                "@metaName": "참고문헌상세링크",
+                                "#text": "http://www.ndsl.kr/ndsl/search/detail/article/articleSearchResultDetail.do?cn=NART47031138"
+                            },
+                            {
+                                "@metaCode": "CitedJournalName",
+                                "@metaName": "참고문헌저널명",
+                                "#text": "J. of Arthroplasty"
+                            },
+                            {
+                                "@metaCode": "CitedOfInfo",
+                                "@metaName": "참고문헌정보"
+                            }
+                        ]
+                    },
+                    {
+                        "@metaGroupCode": "CitedDocumentInfo",
+                        "@metaGroupName": "CitedDocumentInfo",
+                        "@number": "10",
+                        "item": [
+                            {
+                                "@metaCode": "CitedTitle",
+                                "@metaName": "참고문헌논문명",
+                                "#text": "Analysis of Proximal Tibial Resection Surface Dimention with Korean Total Knee Arthroplasty Specimens"
+                            },
+                            {
+                                "@metaCode": "CitedCn",
+                                "@metaName": "참고문헌CN",
+                                "#text": "34647393_7"
+                            },
+                            {
+                                "@metaCode": "CitedMeterialType",
+                                "@metaName": "참고문헌자료유형",
+                                "#text": "other"
+                            },
+                            {
+                                "@metaCode": "CitedLanguage",
+                                "@metaName": "참고문헌언어"
+                            },
+                            {
+                                "@metaCode": "CitedAuthor",
+                                "@metaName": "참고문헌저자",
+                                "#text": "Chung, H.K.;Choi, C.H.;Choi, Y.J.;Yang, M.S.;Kim, D.K.;"
+                            },
+                            {
+                                "@metaCode": "CitedIssn",
+                                "@metaName": "참고문헌ISSN"
+                            },
+                            {
+                                "@metaCode": "CitedIsbn",
+                                "@metaName": "참고문헌ISBN"
+                            },
+                            {
+                                "@metaCode": "CitedVolNo1",
+                                "@metaName": "참고문헌권번호",
+                                "#text": "9"
+                            },
+                            {
+                                "@metaCode": "CitedVolNo2",
+                                "@metaName": "참고문헌호번호",
+                                "#text": "1"
+                            },
+                            {
+                                "@metaCode": "CitedPage",
+                                "@metaName": "참고문헌페이지정보",
+                                "#text": "50"
+                            },
+                            {
+                                "@metaCode": "CitedPubyear",
+                                "@metaName": "참고문헌발행년",
+                                "#text": "1997"
+                            },
+                            {
+                                "@metaCode": "CitedLinkResolver",
+                                "@metaName": "참고문헌링크리졸버",
+                                "#text": "http://click.ndsl.kr/servlet/resolverService?sid=ksci&genre=article&atitle=Analysis+of+Proximal+Tibial+Resection+Surface+Dimention+with+Korean+Total+Knee+Arthroplasty+Specimens&volume=9&date=1997&spage=50&pid=%3Cprivate_id%3Eorg_code%3D0260%26site_code%3DSS9999%26kscino%3D34647393_7%26cen%3D%26ndslartctrlno%3D%3C%2Fprivate_id%3E"
+                            },
+                            {
+                                "@metaCode": "CitedFulltextURL",
+                                "@metaName": "참고문헌원문URL"
+                            },
+                            {
+                                "@metaCode": "CitedDOI",
+                                "@metaName": "참고문헌DOI"
+                            },
+                            {
+                                "@metaCode": "CitedPMIDLink",
+                                "@metaName": "참고문헌Pubmed링크"
+                            },
+                            {
+                                "@metaCode": "CitedContentURL",
+                                "@metaName": "참고문헌상세링크"
+                            },
+                            {
+                                "@metaCode": "CitedJournalName",
+                                "@metaName": "참고문헌저널명",
+                                "#text": "Journal of Korean Knee Society"
+                            },
+                            {
+                                "@metaCode": "CitedOfInfo",
+                                "@metaName": "참고문헌정보"
+                            }
+                        ]
+                    },
+                    {
+                        "@metaGroupCode": "CitedDocumentInfo",
+                        "@metaGroupName": "CitedDocumentInfo",
+                        "@number": "11",
+                        "item": [
+                            {
+                                "@metaCode": "CitedTitle",
+                                "@metaName": "참고문헌논문명",
+                                "#text": "Syudies for the Improvement of Bone Function, Final report of KIST"
+                            },
+                            {
+                                "@metaCode": "CitedCn",
+                                "@metaName": "참고문헌CN",
+                                "#text": "34647393_8"
+                            },
+                            {
+                                "@metaCode": "CitedMeterialType",
+                                "@metaName": "참고문헌자료유형",
+                                "#text": "report"
+                            },
+                            {
+                                "@metaCode": "CitedLanguage",
+                                "@metaName": "참고문헌언어"
+                            },
+                            {
+                                "@metaCode": "CitedAuthor",
+                                "@metaName": "참고문헌저자",
+                                "#text": "Choi, K.W."
+                            },
+                            {
+                                "@metaCode": "CitedIssn",
+                                "@metaName": "참고문헌ISSN"
+                            },
+                            {
+                                "@metaCode": "CitedIsbn",
+                                "@metaName": "참고문헌ISBN"
+                            },
+                            {
+                                "@metaCode": "CitedVolNo1",
+                                "@metaName": "참고문헌권번호"
+                            },
+                            {
+                                "@metaCode": "CitedVolNo2",
+                                "@metaName": "참고문헌호번호"
+                            },
+                            {
+                                "@metaCode": "CitedPage",
+                                "@metaName": "참고문헌페이지정보"
+                            },
+                            {
+                                "@metaCode": "CitedPubyear",
+                                "@metaName": "참고문헌발행년",
+                                "#text": "1997"
+                            },
+                            {
+                                "@metaCode": "CitedLinkResolver",
+                                "@metaName": "참고문헌링크리졸버",
+                                "#text": "http://click.ndsl.kr/servlet/resolverService?sid=ksci&genre=article&atitle=Syudies+for+the+Improvement+of+Bone+Function%2C+Final+report+of+KIST&date=1997&pid=%3Cprivate_id%3Eorg_code%3D0260%26site_code%3DSS9999%26kscino%3D34647393_8%26cen%3D%26ndslartctrlno%3D%3C%2Fprivate_id%3E"
+                            },
+                            {
+                                "@metaCode": "CitedFulltextURL",
+                                "@metaName": "참고문헌원문URL"
+                            },
+                            {
+                                "@metaCode": "CitedDOI",
+                                "@metaName": "참고문헌DOI"
+                            },
+                            {
+                                "@metaCode": "CitedPMIDLink",
+                                "@metaName": "참고문헌Pubmed링크"
+                            },
+                            {
+                                "@metaCode": "CitedContentURL",
+                                "@metaName": "참고문헌상세링크"
+                            },
+                            {
+                                "@metaCode": "CitedJournalName",
+                                "@metaName": "참고문헌저널명"
+                            },
+                            {
+                                "@metaCode": "CitedOfInfo",
+                                "@metaName": "참고문헌정보"
+                            }
+                        ]
+                    },
+                    {
+                        "@metaGroupCode": "CitedDocumentInfo",
+                        "@metaGroupName": "CitedDocumentInfo",
+                        "@number": "12",
+                        "item": [
+                            {
+                                "@metaCode": "CitedTitle",
+                                "@metaName": "참고문헌논문명",
+                                "#text": "Color Atlas of Anatomy"
+                            },
+                            {
+                                "@metaCode": "CitedCn",
+                                "@metaName": "참고문헌CN",
+                                "#text": "34647393_9"
+                            },
+                            {
+                                "@metaCode": "CitedMeterialType",
+                                "@metaName": "참고문헌자료유형",
+                                "#text": "book"
+                            },
+                            {
+                                "@metaCode": "CitedLanguage",
+                                "@metaName": "참고문헌언어"
+                            },
+                            {
+                                "@metaCode": "CitedAuthor",
+                                "@metaName": "참고문헌저자",
+                                "#text": "Rohen, J.W.;Yokochi, C.;Drecoll, E.L.;"
+                            },
+                            {
+                                "@metaCode": "CitedIssn",
+                                "@metaName": "참고문헌ISSN"
+                            },
+                            {
+                                "@metaCode": "CitedIsbn",
+                                "@metaName": "참고문헌ISBN"
+                            },
+                            {
+                                "@metaCode": "CitedVolNo1",
+                                "@metaName": "참고문헌권번호"
+                            },
+                            {
+                                "@metaCode": "CitedVolNo2",
+                                "@metaName": "참고문헌호번호"
+                            },
+                            {
+                                "@metaCode": "CitedPage",
+                                "@metaName": "참고문헌페이지정보",
+                                "#text": "425"
+                            },
+                            {
+                                "@metaCode": "CitedPubyear",
+                                "@metaName": "참고문헌발행년",
+                                "#text": "2002"
+                            },
+                            {
+                                "@metaCode": "CitedLinkResolver",
+                                "@metaName": "참고문헌링크리졸버",
+                                "#text": "http://click.ndsl.kr/servlet/resolverService?sid=ksci&genre=article&atitle=Color+Atlas+of+Anatomy&date=2002&spage=425&pid=%3Cprivate_id%3Eorg_code%3D0260%26site_code%3DSS9999%26kscino%3D34647393_9%26cen%3D%26ndslartctrlno%3D%3C%2Fprivate_id%3E"
+                            },
+                            {
+                                "@metaCode": "CitedFulltextURL",
+                                "@metaName": "참고문헌원문URL"
+                            },
+                            {
+                                "@metaCode": "CitedDOI",
+                                "@metaName": "참고문헌DOI"
+                            },
+                            {
+                                "@metaCode": "CitedPMIDLink",
+                                "@metaName": "참고문헌Pubmed링크"
+                            },
+                            {
+                                "@metaCode": "CitedContentURL",
+                                "@metaName": "참고문헌상세링크"
+                            },
+                            {
+                                "@metaCode": "CitedJournalName",
+                                "@metaName": "참고문헌저널명"
+                            },
+                            {
+                                "@metaCode": "CitedOfInfo",
+                                "@metaName": "참고문헌정보"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
 }
